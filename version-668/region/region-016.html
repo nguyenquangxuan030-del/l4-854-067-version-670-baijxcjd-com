@@ -1,0 +1,536 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>泰国影片-日韩热门影片-热门影片片库-热门影片在线点播</title>
+    <meta name="description" content="日韩热门影片泰国影片栏目，收录 19 部影片。">
+    <meta name="keywords" content="泰国影片,日韩热门影片,热门影片片库,日韩影片,影片点播,热门电影,精选日韩影片,影片合集">
+    <meta name="applicable-device" content="pc,mobile">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="../assets/site.css">
+
+    <script src="../assets/site.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-bar">
+            <a class="brand" href="../index.html" aria-label="日韩热门影片首页">
+                <span class="brand-mark">▶</span>
+                <span>日韩热门影片</span>
+            </a>
+            <nav class="desktop-nav" aria-label="主导航">
+                <a href="../index.html">首页</a>
+                <a href="../categories.html">分类</a>
+                <a href="../ranking.html">排行榜</a>
+                <a href="../movies/page-1.html">片库</a>
+                <a href="../search.html">搜索</a>
+            </nav>
+            <form class="header-search search-form" action="../search.html" method="get">
+                <input type="search" name="q" placeholder="搜索影片、题材、地区" autocomplete="off">
+                <button type="submit">搜索</button>
+            </form>
+            <button class="mobile-toggle" type="button" aria-label="展开导航" aria-expanded="false">☰</button>
+        </div>
+        <div class="mobile-menu" hidden>
+            <form class="mobile-search search-form" action="../search.html" method="get">
+                <input type="search" name="q" placeholder="搜索影片、题材、地区" autocomplete="off">
+                <button type="submit">搜索</button>
+            </form>
+            <a href="../index.html">首页</a>
+            <a href="../categories.html">分类</a>
+            <a href="../ranking.html">排行榜</a>
+            <a href="../movies/page-1.html">片库</a>
+            <a href="../search.html">搜索</a>
+        </div>
+    </header>
+    <main>
+        <section class="page-hero compact-hero">
+            <div class="container">
+                <span class="section-kicker">Movie List</span>
+                <h1>泰国影片</h1>
+                <p>当前栏目共 19 部影片，支持当前页关键词和条件筛选。</p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+            <section class="filter-panel" aria-label="筛选影片">
+                <input id="pageFilterKeyword" type="search" placeholder="在当前页面筛选片名、简介、题材">
+                <select id="pageFilterType">
+                    <option value="">全部类型</option>
+                    <option value="电影">电影</option>
+                    <option value="剧集">剧集</option>
+                    <option value="电视剧">电视剧</option>
+                    <option value="动画电影">动画电影</option>
+                    <option value="动画剧集">动画剧集</option>
+                    <option value="综艺">综艺</option>
+                    <option value="动画">动画</option>
+                    <option value="网络剧">网络剧</option>
+                    <option value="网络电影">网络电影</option>
+                    <option value="纪录片">纪录片</option>
+                    <option value="动漫">动漫</option>
+                    <option value="TV Series">TV Series</option>
+                    <option value="TV 剧集">TV 剧集</option>
+                    <option value="动画短片">动画短片</option>
+                    <option value="电影/动画">电影/动画</option>
+                    <option value="电影/纪录片">电影/纪录片</option>
+                    <option value="纪录片剧集">纪录片剧集</option>
+                    <option value="TV">TV</option>
+                    <option value="TV 动画">TV 动画</option>
+                    <option value="TV动画">TV动画</option>
+                    <option value="剧情/农村">剧情/农村</option>
+                    <option value="剧情/喜剧">剧情/喜剧</option>
+                    <option value="剧集,动画">剧集,动画</option>
+                    <option value="剧集/动画">剧集/动画</option>
+                    <option value="剧集/短剧">剧集/短剧</option>
+                    <option value="剧集/综艺">剧集/综艺</option>
+                    <option value="动画 动画/校园">动画 动画/校园</option>
+                    <option value="电影 (动画)">电影 (动画)</option>
+                    <option value="电影 纪录片">电影 纪录片</option>
+                    <option value="电影,动画">电影,动画</option>
+                </select>
+                <select id="pageFilterRegion">
+                    <option value="">全部地区</option>
+                    <option value="中国大陆">中国大陆</option>
+                    <option value="美国">美国</option>
+                    <option value="日本">日本</option>
+                    <option value="中国香港">中国香港</option>
+                    <option value="韩国">韩国</option>
+                    <option value="英国">英国</option>
+                    <option value="中国台湾">中国台湾</option>
+                    <option value="法国">法国</option>
+                    <option value="中国">中国</option>
+                    <option value="西班牙">西班牙</option>
+                    <option value="德国">德国</option>
+                    <option value="意大利">意大利</option>
+                    <option value="印度">印度</option>
+                    <option value="香港">香港</option>
+                    <option value="俄罗斯">俄罗斯</option>
+                    <option value="泰国">泰国</option>
+                    <option value="中国内地">中国内地</option>
+                    <option value="澳大利亚">澳大利亚</option>
+                    <option value="加拿大">加拿大</option>
+                    <option value="美国/英国">美国/英国</option>
+                    <option value="法国/比利时">法国/比利时</option>
+                    <option value="台湾">台湾</option>
+                    <option value="英国/美国">英国/美国</option>
+                    <option value="中国香港/中国大陆">中国香港/中国大陆</option>
+                    <option value="挪威">挪威</option>
+                    <option value="法国/德国">法国/德国</option>
+                    <option value="美国/德国">美国/德国</option>
+                    <option value="瑞典">瑞典</option>
+                    <option value="美国/中国大陆">美国/中国大陆</option>
+                    <option value="美国/加拿大">美国/加拿大</option>
+                    <option value="美国/墨西哥">美国/墨西哥</option>
+                    <option value="英国/法国">英国/法国</option>
+                    <option value="中国大陆,香港">中国大陆,香港</option>
+                    <option value="中国大陆/中国香港">中国大陆/中国香港</option>
+                    <option value="中国大陆/香港">中国大陆/香港</option>
+                    <option value="中国香港/台湾">中国香港/台湾</option>
+                    <option value="丹麦">丹麦</option>
+                    <option value="乌克兰">乌克兰</option>
+                    <option value="伊朗">伊朗</option>
+                    <option value="巴西">巴西</option>
+                </select>
+                <select id="pageFilterYear">
+                    <option value="">全部年份</option>
+                    <option value="2030">2030</option>
+                    <option value="2029">2029</option>
+                    <option value="2028">2028</option>
+                    <option value="2027">2027</option>
+                    <option value="2026">2026</option>
+                    <option value="2025">2025</option>
+                    <option value="2024">2024</option>
+                    <option value="2023">2023</option>
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                    <option value="2020">2020</option>
+                    <option value="2019">2019</option>
+                    <option value="2018">2018</option>
+                    <option value="2017">2017</option>
+                    <option value="2016">2016</option>
+                    <option value="2015">2015</option>
+                    <option value="2014">2014</option>
+                    <option value="2013">2013</option>
+                    <option value="2012">2012</option>
+                    <option value="2011">2011</option>
+                    <option value="2010">2010</option>
+                    <option value="2009">2009</option>
+                    <option value="2008">2008</option>
+                    <option value="2007">2007</option>
+                    <option value="2006">2006</option>
+                    <option value="2005">2005</option>
+                    <option value="2004">2004</option>
+                    <option value="2003">2003</option>
+                    <option value="2002">2002</option>
+                    <option value="2001">2001</option>
+                    <option value="2000">2000</option>
+                    <option value="1999">1999</option>
+                    <option value="1998">1998</option>
+                    <option value="1997">1997</option>
+                    <option value="1996">1996</option>
+                    <option value="1995">1995</option>
+                    <option value="1994">1994</option>
+                    <option value="1993">1993</option>
+                    <option value="1992">1992</option>
+                    <option value="1991">1991</option>
+                </select>
+                <a class="filter-link" href="../search.html">高级搜索</a>
+            </section>
+                <div class="movie-grid filterable-grid">
+                <article class="movie-card" data-title="我的会长大人" data-type="剧集" data-region="泰国" data-year="2024" data-genre="爱情,喜剧,校园" data-tags="学生会 欢喜冤家 校园权力游戏">
+                    <a class="movie-cover" href="../movie/1810.html">
+                        <img src="../10.jpg" alt="我的会长大人" loading="lazy">
+                        <span class="duration">111:32</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1810.html">我的会长大人</a></h3>
+                        <p>学生会会长发明了一条新校规:“禁止对我心动”,结果自己成了第一个违规的人。</p>
+                        <div class="movie-meta">
+                            <span>19.7万热度</span>
+                            <span>2024</span>
+                            <span>泰国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="爱自皮肤" data-type="电影" data-region="泰国" data-year="2024" data-genre="青春同性" data-tags="校园 自我认同 颜值">
+                    <a class="movie-cover" href="../movie/0176.html">
+                        <img src="../26.jpg" alt="爱自皮肤" loading="lazy">
+                        <span class="duration">106:58</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0176.html">爱自皮肤</a></h3>
+                        <p>他的身体里住着一个女孩的灵魂,而他爱上了自己最好的兄弟。</p>
+                        <div class="movie-meta">
+                            <span>19.3万热度</span>
+                            <span>2024</span>
+                            <span>泰国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="爱情继续" data-type="剧集" data-region="泰国" data-year="2025" data-genre="爱情,同性,剧情" data-tags="破镜重圆 职场 前任">
+                    <a class="movie-cover" href="../movie/0903.html">
+                        <img src="../3.jpg" alt="爱情继续" loading="lazy">
+                        <span class="duration">92:53</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0903.html">爱情继续</a></h3>
+                        <p>分手五年的两个男人,因为成为同一家航空公司的正副机长而被迫重新共处密闭的驾驶舱。</p>
+                        <div class="movie-meta">
+                            <span>19.0万热度</span>
+                            <span>2025</span>
+                            <span>泰国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="凶咒" data-type="电影" data-region="泰国" data-year="2025" data-genre="恐怖" data-tags="降头 夺舍 医院">
+                    <a class="movie-cover" href="../movie/1500.html">
+                        <img src="../150.jpg" alt="凶咒" loading="lazy">
+                        <span class="duration">112:27</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1500.html">凶咒</a></h3>
+                        <p>妇产科医生接生了一个没有眼睛的婴儿,当晚她发现自己肚子里也开始长出胎动。</p>
+                        <div class="movie-meta">
+                            <span>17.4万热度</span>
+                            <span>2025</span>
+                            <span>泰国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="日落之前爱上你" data-type="电视剧" data-region="泰国" data-year="2023" data-genre="爱情,奇幻,青春" data-tags="日落诅咒 时光回溯 纯爱催泪">
+                    <a class="movie-cover" href="../movie/0257.html">
+                        <img src="../107.jpg" alt="日落之前爱上你" loading="lazy">
+                        <span class="duration">113:48</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0257.html">日落之前爱上你</a></h3>
+                        <p>女主每到日落就会忘记当天的记忆,男主必须在每一次黄昏前让她重新爱上自己。</p>
+                        <div class="movie-meta">
+                            <span>17.7万热度</span>
+                            <span>2023</span>
+                            <span>泰国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="爱存在" data-type="剧集" data-region="泰国" data-year="2023" data-genre="爱情、奇幻、悬疑" data-tags="意念 失忆 拯救">
+                    <a class="movie-cover" href="../movie/1576.html">
+                        <img src="../76.jpg" alt="爱存在" loading="lazy">
+                        <span class="duration">106:47</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1576.html">爱存在</a></h3>
+                        <p>一对分手三年的情侣,发现只要强烈相信“爱存在”,就能穿越时空修改过去。</p>
+                        <div class="movie-meta">
+                            <span>16.4万热度</span>
+                            <span>2023</span>
+                            <span>泰国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="恐怖诊所" data-type="电影" data-region="泰国" data-year="2025" data-genre="恐怖、惊悚" data-tags="医院 人体实验 邪教">
+                    <a class="movie-cover" href="../movie/1788.html">
+                        <img src="../138.jpg" alt="恐怖诊所" loading="lazy">
+                        <span class="duration">88:04</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1788.html">恐怖诊所</a></h3>
+                        <p>一家只开夜间的黑诊所,治不好病的人会变成“下一批药材”。</p>
+                        <div class="movie-meta">
+                            <span>14.3万热度</span>
+                            <span>2025</span>
+                            <span>泰国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="泰版下一站是幸福泰语" data-type="电视剧" data-region="泰国" data-year="2025" data-genre="爱情,喜剧,职场" data-tags="姐弟恋 泰剧翻拍 职场">
+                    <a class="movie-cover" href="../movie/0849.html">
+                        <img src="../99.jpg" alt="泰版下一站是幸福泰语" loading="lazy">
+                        <span class="duration">78:59</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0849.html">泰版下一站是幸福泰语</a></h3>
+                        <p>当泰国职场女强人遇到比她小十岁的实习奶狗,办公室的空调都变成了粉红色。</p>
+                        <div class="movie-meta">
+                            <span>13.8万热度</span>
+                            <span>2025</span>
+                            <span>泰国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="恐惧微笑" data-type="电影" data-region="泰国" data-year="2025" data-genre="恐怖/心理" data-tags="整容 诅咒 社交媒体">
+                    <a class="movie-cover" href="../movie/0804.html">
+                        <img src="../54.jpg" alt="恐惧微笑" loading="lazy">
+                        <span class="duration">93:11</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0804.html">恐惧微笑</a></h3>
+                        <p>一款全网爆红的“完美微笑”整容手术,术后所有人都会在凌晨三点对着空气尖叫。</p>
+                        <div class="movie-meta">
+                            <span>12.8万热度</span>
+                            <span>2025</span>
+                            <span>泰国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="班亚和蕾雨 3" data-type="电影" data-region="泰国" data-year="2024" data-genre="爱情/剧情/奇幻" data-tags="泰国纯爱 轮回转世 催泪">
+                    <a class="movie-cover" href="../movie/1425.html">
+                        <img src="../75.jpg" alt="班亚和蕾雨 3" loading="lazy">
+                        <span class="duration">127:26</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1425.html">班亚和蕾雨 3</a></h3>
+                        <p>为了打破蕾雨无法活过20岁的诅咒,班亚决定进入生死轮回改写命运。</p>
+                        <div class="movie-meta">
+                            <span>12.4万热度</span>
+                            <span>2024</span>
+                            <span>泰国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="劈腿女王" data-type="剧集" data-region="泰国" data-year="2025" data-genre="爱情,喜剧,悬疑" data-tags="修罗场 时间管理 女性视角">
+                    <a class="movie-cover" href="../movie/0436.html">
+                        <img src="../136.jpg" alt="劈腿女王" loading="lazy">
+                        <span class="duration">80:05</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0436.html">劈腿女王</a></h3>
+                        <p>这位“时间管理大师”同时交往七个完美男友,直到她发现这七个人都是同一位病娇程序员开发的恋爱AI程序。</p>
+                        <div class="movie-meta">
+                            <span>11.4万热度</span>
+                            <span>2025</span>
+                            <span>泰国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="泰版对不起,我爱你国语" data-type="电视剧" data-region="泰国" data-year="2016" data-genre="爱情/剧情" data-tags="翻拍 泰剧 悲恋">
+                    <a class="movie-cover" href="../movie/0812.html">
+                        <img src="../62.jpg" alt="泰版对不起,我爱你国语" loading="lazy">
+                        <span class="duration">111:26</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0812.html">泰版对不起,我爱你国语</a></h3>
+                        <p>被遗弃的泰国混混在街头被人捅伤,濒死时遇见一个女孩,发现她是自己亲生母亲的养女。</p>
+                        <div class="movie-meta">
+                            <span>10.5万热度</span>
+                            <span>2016</span>
+                            <span>泰国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="新娘百分百" data-type="电影" data-region="泰国" data-year="2023" data-genre="爱情、喜剧" data-tags="婚庆 假戏真做 霸总">
+                    <a class="movie-cover" href="../movie/1195.html">
+                        <img src="../145.jpg" alt="新娘百分百" loading="lazy">
+                        <span class="duration">113:57</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1195.html">新娘百分百</a></h3>
+                        <p>曼谷最卷的婚礼策划师,在为自己策划的“假婚礼”上,被新郎当众悔婚,而台下唯一没笑的男人举起了手:我来。</p>
+                        <div class="movie-meta">
+                            <span>7.0万热度</span>
+                            <span>2023</span>
+                            <span>泰国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="蝙蝠猎人" data-type="电影" data-region="泰国" data-year="2021" data-genre="惊悚/恐怖/冒险" data-tags="泰国洞穴 蝙蝠群 病毒危机">
+                    <a class="movie-cover" href="../movie/1952.html">
+                        <img src="../2.jpg" alt="蝙蝠猎人" loading="lazy">
+                        <span class="duration">107:34</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1952.html">蝙蝠猎人</a></h3>
+                        <p>一群非法狩猎者在泰国洞穴深处被变异蝙蝠围攻,而他们带出的病毒正让整个村庄开始变异。</p>
+                        <div class="movie-meta">
+                            <span>5.9万热度</span>
+                            <span>2021</span>
+                            <span>泰国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="蜜糖美人" data-type="剧集" data-region="泰国" data-year="2021" data-genre="爱情/复仇/狗血" data-tags="甜点师 整容换脸 白莲花">
+                    <a class="movie-cover" href="../movie/0616.html">
+                        <img src="../16.jpg" alt="蜜糖美人" loading="lazy">
+                        <span class="duration">93:09</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0616.html">蜜糖美人</a></h3>
+                        <p>被闺蜜和未婚夫联手毁容的天才甜点师,整容成“最美网红脸”归来,用甜品做局,让他们一口一口吞下慢性毒药。</p>
+                        <div class="movie-meta">
+                            <span>4.7万热度</span>
+                            <span>2021</span>
+                            <span>泰国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="吓破胆" data-type="电影" data-region="泰国" data-year="2023" data-genre="恐怖/惊悚" data-tags="民俗 降头 直播">
+                    <a class="movie-cover" href="../movie/1217.html">
+                        <img src="../17.jpg" alt="吓破胆" loading="lazy">
+                        <span class="duration">108:10</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1217.html">吓破胆</a></h3>
+                        <p>五个网红去闹鬼村落直播探险,却发现村长为了保护他们编造的鬼故事,竟然全部成真了。</p>
+                        <div class="movie-meta">
+                            <span>2.8万热度</span>
+                            <span>2023</span>
+                            <span>泰国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="爱在暹逻" data-type="电影" data-region="泰国" data-year="2007" data-genre="剧情/爱情/同性" data-tags="青春 纯爱 家庭">
+                    <a class="movie-cover" href="../movie/0922.html">
+                        <img src="../22.jpg" alt="爱在暹逻" loading="lazy">
+                        <span class="duration">71:54</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0922.html">爱在暹逻</a></h3>
+                        <p>儿时玩伴在暹罗广场重逢,一份无法言说的爱在友谊与世俗边界徘徊。</p>
+                        <div class="movie-meta">
+                            <span>5.1万热度</span>
+                            <span>2007</span>
+                            <span>泰国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="姻缘天定" data-type="电视剧" data-region="泰国" data-year="2018" data-genre="爱情,奇幻" data-tags="穿越 前世今生 搞笑">
+                    <a class="movie-cover" href="../movie/0389.html">
+                        <img src="../89.jpg" alt="姻缘天定" loading="lazy">
+                        <span class="duration">96:27</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0389.html">姻缘天定</a></h3>
+                        <p>一个傲娇的现代考古系女生穿越回古代,被迫嫁给脾气暴躁的古代王子,却发现这是命中注定的虐恋。</p>
+                        <div class="movie-meta">
+                            <span>1.8万热度</span>
+                            <span>2018</span>
+                            <span>泰国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="影子恋人" data-type="剧集" data-region="泰国" data-year="2020" data-genre="爱情虐恋" data-tags="双胞胎替身 豪门恩怨 禁忌之恋">
+                    <a class="movie-cover" href="../movie/0148.html">
+                        <img src="../148.jpg" alt="影子恋人" loading="lazy">
+                        <span class="duration">105:22</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0148.html">影子恋人</a></h3>
+                        <p>为了姐姐,她整容成她的样子嫁给仇人,却发现自己爱上了这个“杀姐凶手”。</p>
+                        <div class="movie-meta">
+                            <span>1.0万热度</span>
+                            <span>2020</span>
+                            <span>泰国</span>
+                        </div>
+                    </div>
+                </article>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <section>
+                <a class="footer-brand" href="../index.html">
+                    <span class="brand-mark">▶</span>
+                    <span>日韩热门影片</span>
+                </a>
+                <p>精选站内热门影片、剧集与片单内容，按题材、地区、年份与热度组织，方便快速发现想看的作品。</p>
+            </section>
+            <section>
+                <h2>快速导航</h2>
+                <a href="../categories.html">分类浏览</a>
+                <a href="../ranking.html">热度排行</a>
+                <a href="../movies/page-1.html">全部片库</a>
+                <a href="../search.html">搜索筛选</a>
+            </section>
+            <section>
+                <h2>内容入口</h2>
+                <a href="../category/main-001.html">日韩爱情</a>
+                <a href="../category/main-002.html">日韩悬疑</a>
+                <a href="../category/main-003.html">日韩古装</a>
+                <a href="../category/main-004.html">日韩动画</a>
+            </section>
+            <section>
+                <h2>站点服务</h2>
+                <a href="../about.html">关于本站</a>
+                <a href="../support.html">观看指南</a>
+                <a href="../copyright.html">版权声明</a>
+            </section>
+        </div>
+        <div class="container footer-bottom">
+            <p>© 2026 日韩热门影片. 持续整理站内热门片单与播放入口。</p>
+        </div>
+    </footer>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

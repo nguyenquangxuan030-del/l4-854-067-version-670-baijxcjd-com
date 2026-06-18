@@ -1,0 +1,536 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>俄罗斯影片-日韩热门影片-热门影片片库-热门影片在线点播</title>
+    <meta name="description" content="日韩热门影片俄罗斯影片栏目，收录 19 部影片。">
+    <meta name="keywords" content="俄罗斯影片,日韩热门影片,热门影片片库,日韩影片,影片点播,热门电影,精选日韩影片,影片合集">
+    <meta name="applicable-device" content="pc,mobile">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="../assets/site.css">
+
+    <script src="../assets/site.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-bar">
+            <a class="brand" href="../index.html" aria-label="日韩热门影片首页">
+                <span class="brand-mark">▶</span>
+                <span>日韩热门影片</span>
+            </a>
+            <nav class="desktop-nav" aria-label="主导航">
+                <a href="../index.html">首页</a>
+                <a href="../categories.html">分类</a>
+                <a href="../ranking.html">排行榜</a>
+                <a href="../movies/page-1.html">片库</a>
+                <a href="../search.html">搜索</a>
+            </nav>
+            <form class="header-search search-form" action="../search.html" method="get">
+                <input type="search" name="q" placeholder="搜索影片、题材、地区" autocomplete="off">
+                <button type="submit">搜索</button>
+            </form>
+            <button class="mobile-toggle" type="button" aria-label="展开导航" aria-expanded="false">☰</button>
+        </div>
+        <div class="mobile-menu" hidden>
+            <form class="mobile-search search-form" action="../search.html" method="get">
+                <input type="search" name="q" placeholder="搜索影片、题材、地区" autocomplete="off">
+                <button type="submit">搜索</button>
+            </form>
+            <a href="../index.html">首页</a>
+            <a href="../categories.html">分类</a>
+            <a href="../ranking.html">排行榜</a>
+            <a href="../movies/page-1.html">片库</a>
+            <a href="../search.html">搜索</a>
+        </div>
+    </header>
+    <main>
+        <section class="page-hero compact-hero">
+            <div class="container">
+                <span class="section-kicker">Movie List</span>
+                <h1>俄罗斯影片</h1>
+                <p>当前栏目共 19 部影片，支持当前页关键词和条件筛选。</p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+            <section class="filter-panel" aria-label="筛选影片">
+                <input id="pageFilterKeyword" type="search" placeholder="在当前页面筛选片名、简介、题材">
+                <select id="pageFilterType">
+                    <option value="">全部类型</option>
+                    <option value="电影">电影</option>
+                    <option value="剧集">剧集</option>
+                    <option value="电视剧">电视剧</option>
+                    <option value="动画电影">动画电影</option>
+                    <option value="动画剧集">动画剧集</option>
+                    <option value="综艺">综艺</option>
+                    <option value="动画">动画</option>
+                    <option value="网络剧">网络剧</option>
+                    <option value="网络电影">网络电影</option>
+                    <option value="纪录片">纪录片</option>
+                    <option value="动漫">动漫</option>
+                    <option value="TV Series">TV Series</option>
+                    <option value="TV 剧集">TV 剧集</option>
+                    <option value="动画短片">动画短片</option>
+                    <option value="电影/动画">电影/动画</option>
+                    <option value="电影/纪录片">电影/纪录片</option>
+                    <option value="纪录片剧集">纪录片剧集</option>
+                    <option value="TV">TV</option>
+                    <option value="TV 动画">TV 动画</option>
+                    <option value="TV动画">TV动画</option>
+                    <option value="剧情/农村">剧情/农村</option>
+                    <option value="剧情/喜剧">剧情/喜剧</option>
+                    <option value="剧集,动画">剧集,动画</option>
+                    <option value="剧集/动画">剧集/动画</option>
+                    <option value="剧集/短剧">剧集/短剧</option>
+                    <option value="剧集/综艺">剧集/综艺</option>
+                    <option value="动画 动画/校园">动画 动画/校园</option>
+                    <option value="电影 (动画)">电影 (动画)</option>
+                    <option value="电影 纪录片">电影 纪录片</option>
+                    <option value="电影,动画">电影,动画</option>
+                </select>
+                <select id="pageFilterRegion">
+                    <option value="">全部地区</option>
+                    <option value="中国大陆">中国大陆</option>
+                    <option value="美国">美国</option>
+                    <option value="日本">日本</option>
+                    <option value="中国香港">中国香港</option>
+                    <option value="韩国">韩国</option>
+                    <option value="英国">英国</option>
+                    <option value="中国台湾">中国台湾</option>
+                    <option value="法国">法国</option>
+                    <option value="中国">中国</option>
+                    <option value="西班牙">西班牙</option>
+                    <option value="德国">德国</option>
+                    <option value="意大利">意大利</option>
+                    <option value="印度">印度</option>
+                    <option value="香港">香港</option>
+                    <option value="俄罗斯">俄罗斯</option>
+                    <option value="泰国">泰国</option>
+                    <option value="中国内地">中国内地</option>
+                    <option value="澳大利亚">澳大利亚</option>
+                    <option value="加拿大">加拿大</option>
+                    <option value="美国/英国">美国/英国</option>
+                    <option value="法国/比利时">法国/比利时</option>
+                    <option value="台湾">台湾</option>
+                    <option value="英国/美国">英国/美国</option>
+                    <option value="中国香港/中国大陆">中国香港/中国大陆</option>
+                    <option value="挪威">挪威</option>
+                    <option value="法国/德国">法国/德国</option>
+                    <option value="美国/德国">美国/德国</option>
+                    <option value="瑞典">瑞典</option>
+                    <option value="美国/中国大陆">美国/中国大陆</option>
+                    <option value="美国/加拿大">美国/加拿大</option>
+                    <option value="美国/墨西哥">美国/墨西哥</option>
+                    <option value="英国/法国">英国/法国</option>
+                    <option value="中国大陆,香港">中国大陆,香港</option>
+                    <option value="中国大陆/中国香港">中国大陆/中国香港</option>
+                    <option value="中国大陆/香港">中国大陆/香港</option>
+                    <option value="中国香港/台湾">中国香港/台湾</option>
+                    <option value="丹麦">丹麦</option>
+                    <option value="乌克兰">乌克兰</option>
+                    <option value="伊朗">伊朗</option>
+                    <option value="巴西">巴西</option>
+                </select>
+                <select id="pageFilterYear">
+                    <option value="">全部年份</option>
+                    <option value="2030">2030</option>
+                    <option value="2029">2029</option>
+                    <option value="2028">2028</option>
+                    <option value="2027">2027</option>
+                    <option value="2026">2026</option>
+                    <option value="2025">2025</option>
+                    <option value="2024">2024</option>
+                    <option value="2023">2023</option>
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                    <option value="2020">2020</option>
+                    <option value="2019">2019</option>
+                    <option value="2018">2018</option>
+                    <option value="2017">2017</option>
+                    <option value="2016">2016</option>
+                    <option value="2015">2015</option>
+                    <option value="2014">2014</option>
+                    <option value="2013">2013</option>
+                    <option value="2012">2012</option>
+                    <option value="2011">2011</option>
+                    <option value="2010">2010</option>
+                    <option value="2009">2009</option>
+                    <option value="2008">2008</option>
+                    <option value="2007">2007</option>
+                    <option value="2006">2006</option>
+                    <option value="2005">2005</option>
+                    <option value="2004">2004</option>
+                    <option value="2003">2003</option>
+                    <option value="2002">2002</option>
+                    <option value="2001">2001</option>
+                    <option value="2000">2000</option>
+                    <option value="1999">1999</option>
+                    <option value="1998">1998</option>
+                    <option value="1997">1997</option>
+                    <option value="1996">1996</option>
+                    <option value="1995">1995</option>
+                    <option value="1994">1994</option>
+                    <option value="1993">1993</option>
+                    <option value="1992">1992</option>
+                    <option value="1991">1991</option>
+                </select>
+                <a class="filter-link" href="../search.html">高级搜索</a>
+            </section>
+                <div class="movie-grid filterable-grid">
+                <article class="movie-card" data-title="彼得一世国王的加冕礼" data-type="电影" data-region="俄罗斯" data-year="2025" data-genre="历史,传记,剧情" data-tags="宫廷 权谋 改革">
+                    <a class="movie-cover" href="../movie/0174.html">
+                        <img src="../24.jpg" alt="彼得一世国王的加冕礼" loading="lazy">
+                        <span class="duration">79:53</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0174.html">彼得一世国王的加冕礼</a></h3>
+                        <p>加冕礼的背后,是一场用鲜血与阴谋铺就的现代化之路。</p>
+                        <div class="movie-meta">
+                            <span>18.0万热度</span>
+                            <span>2025</span>
+                            <span>俄罗斯</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="战斗父亲邓尼" data-type="电影" data-region="俄罗斯" data-year="2024" data-genre="剧情/战争/家庭" data-tags="俄乌冲突 父亲 营救">
+                    <a class="movie-cover" href="../movie/0270.html">
+                        <img src="../120.jpg" alt="战斗父亲邓尼" loading="lazy">
+                        <span class="duration">127:12</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0270.html">战斗父亲邓尼</a></h3>
+                        <p>一位60岁的退休矿工只身穿越战线,只为把被俘的儿子从战俘营里拖出来。</p>
+                        <div class="movie-meta">
+                            <span>17.0万热度</span>
+                            <span>2024</span>
+                            <span>俄罗斯</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="撒坦" data-type="电影" data-region="俄罗斯" data-year="2022" data-genre="奇幻,剧情" data-tags="魔鬼 交易 欲望">
+                    <a class="movie-cover" href="../movie/1753.html">
+                        <img src="../103.jpg" alt="撒坦" loading="lazy">
+                        <span class="duration">81:11</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1753.html">撒坦</a></h3>
+                        <p>莫斯科一名落魄画家与魔鬼“撒坦”达成交易:用十年寿命换取一笔巨款,但每次使用金钱,都会让他失去一种情感。</p>
+                        <div class="movie-meta">
+                            <span>16.9万热度</span>
+                            <span>2022</span>
+                            <span>俄罗斯</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="穿越火线" data-type="电影" data-region="俄罗斯" data-year="2019" data-genre="战争,动作" data-tags="狙击手 东乌 兄弟情">
+                    <a class="movie-cover" href="../movie/0020.html">
+                        <img src="../20.jpg" alt="穿越火线" loading="lazy">
+                        <span class="duration">112:15</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0020.html">穿越火线</a></h3>
+                        <p>两个曾是战友的狙击手,在东乌战场上分属敌我阵营,他们必须在三天内,穿过尸横遍野的无人区,杀死对方。</p>
+                        <div class="movie-meta">
+                            <span>17.7万热度</span>
+                            <span>2019</span>
+                            <span>俄罗斯</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="十二怒汉" data-type="电影" data-region="俄罗斯" data-year="2024" data-genre="剧情/法庭" data-tags="翻拍 陪审团 偏见">
+                    <a class="movie-cover" href="../movie/0699.html">
+                        <img src="../99.jpg" alt="十二怒汉" loading="lazy">
+                        <span class="duration">70:57</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0699.html">十二怒汉</a></h3>
+                        <p>车臣少年被指控杀害养父,十二名来自各阶层的俄罗斯人,在一间闷热房间里决定他的生死。</p>
+                        <div class="movie-meta">
+                            <span>14.6万热度</span>
+                            <span>2024</span>
+                            <span>俄罗斯</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="勇士" data-type="电影" data-region="俄罗斯" data-year="2025" data-genre="历史,动作,剧情" data-tags="中世纪 罗斯 维京">
+                    <a class="movie-cover" href="../movie/0821.html">
+                        <img src="../71.jpg" alt="勇士" loading="lazy">
+                        <span class="duration">84:58</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0821.html">勇士</a></h3>
+                        <p>13世纪罗斯公国被蒙古铁骑碾压,一名被流放的勇士必须带领一群农民,利用泥泞的沼泽击败无敌的骑兵。</p>
+                        <div class="movie-meta">
+                            <span>12.4万热度</span>
+                            <span>2025</span>
+                            <span>俄罗斯</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="生命宛如幽暗长河" data-type="电影" data-region="俄罗斯" data-year="2023" data-genre="剧情/哲学" data-tags="西伯利亚 老人 记忆">
+                    <a class="movie-cover" href="../movie/0287.html">
+                        <img src="../137.jpg" alt="生命宛如幽暗长河" loading="lazy">
+                        <span class="duration">122:01</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0287.html">生命宛如幽暗长河</a></h3>
+                        <p>西伯利亚密林深处,一位失忆的老人沿着一条从未流出的河流上溯,发现自己曾是将近半个村庄的“送葬人”。</p>
+                        <div class="movie-meta">
+                            <span>10.7万热度</span>
+                            <span>2023</span>
+                            <span>俄罗斯</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="棺材200" data-type="电影" data-region="俄罗斯" data-year="2007" data-genre="恐怖/惊悚" data-tags="二战 复仇 诅咒">
+                    <a class="movie-cover" href="../movie/1973.html">
+                        <img src="../23.jpg" alt="棺材200" loading="lazy">
+                        <span class="duration">87:55</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1973.html">棺材200</a></h3>
+                        <p>200名村民被纳粹活埋后,他们的棺材变成了一种传染病,任何接触者都会以最残忍的方式被“收纳”。</p>
+                        <div class="movie-meta">
+                            <span>13.1万热度</span>
+                            <span>2007</span>
+                            <span>俄罗斯</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="太空机" data-type="电影" data-region="俄罗斯" data-year="2025" data-genre="科幻/悬疑/剧情" data-tags="太空 意识上传 阴谋">
+                    <a class="movie-cover" href="../movie/1686.html">
+                        <img src="../36.jpg" alt="太空机" loading="lazy">
+                        <span class="duration">106:55</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1686.html">太空机</a></h3>
+                        <p>一名宇航员在太空站醒来,发现自己是唯一的人类,其余船员都是被他“杀死”的AI。</p>
+                        <div class="movie-meta">
+                            <span>8.7万热度</span>
+                            <span>2025</span>
+                            <span>俄罗斯</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="高加索女俘虏" data-type="电影" data-region="俄罗斯" data-year="2024" data-genre="战争/剧情/历史" data-tags="车臣战争 女性视角 残酷写实">
+                    <a class="movie-cover" href="../movie/1498.html">
+                        <img src="../148.jpg" alt="高加索女俘虏" loading="lazy">
+                        <span class="duration">96:25</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1498.html">高加索女俘虏</a></h3>
+                        <p>车臣战争中,一名俄军狙击手抓住了一个车臣少女,却在回去的路上被自己的部队抛弃,两人被迫一起穿越敌占区。</p>
+                        <div class="movie-meta">
+                            <span>7.0万热度</span>
+                            <span>2024</span>
+                            <span>俄罗斯</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="日巡者" data-type="电影" data-region="俄罗斯" data-year="2024" data-genre="奇幻,动作,悬疑" data-tags="光明与黑暗 法力 命运审判">
+                    <a class="movie-cover" href="../movie/1527.html">
+                        <img src="../27.jpg" alt="日巡者" loading="lazy">
+                        <span class="duration">86:03</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1527.html">日巡者</a></h3>
+                        <p>光明与黑暗的平衡被打破,一名平凡的莫斯科大学生意外获得了“日巡者”的徽章,被迫卷入两大势力的终极审判。</p>
+                        <div class="movie-meta">
+                            <span>6.7万热度</span>
+                            <span>2024</span>
+                            <span>俄罗斯</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="沃尔科诺戈夫上尉逃亡记" data-type="电影" data-region="俄罗斯" data-year="2025" data-genre="剧情,历史,惊悚" data-tags="逃亡 斯大林时期 极权">
+                    <a class="movie-cover" href="../movie/1659.html">
+                        <img src="../9.jpg" alt="沃尔科诺戈夫上尉逃亡记" loading="lazy">
+                        <span class="duration">79:39</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1659.html">沃尔科诺戈夫上尉逃亡记</a></h3>
+                        <p>1938年,一名执行过无数“清洗”任务的内务部上尉突然被下令逮捕,他必须在24小时内逃出莫斯科。</p>
+                        <div class="movie-meta">
+                            <span>5.9万热度</span>
+                            <span>2025</span>
+                            <span>俄罗斯</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="伊凡·杰尼索维奇的一天" data-type="电影" data-region="俄罗斯" data-year="2023" data-genre="剧情/历史" data-tags="劳改营 生存 索尔仁尼琴">
+                    <a class="movie-cover" href="../movie/1933.html">
+                        <img src="../133.jpg" alt="伊凡·杰尼索维奇的一天" loading="lazy">
+                        <span class="duration">80:02</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1933.html">伊凡·杰尼索维奇的一天</a></h3>
+                        <p>一个普通囚犯在劳改营里的普通一天,从起床到熄灯,没有暴力,却比任何恐怖片都压抑。</p>
+                        <div class="movie-meta">
+                            <span>6.0万热度</span>
+                            <span>2023</span>
+                            <span>俄罗斯</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="给初生者以和平" data-type="电影" data-region="俄罗斯" data-year="2025" data-genre="战争,剧情" data-tags="二战 孩子 生存">
+                    <a class="movie-cover" href="../movie/1721.html">
+                        <img src="../71.jpg" alt="给初生者以和平" loading="lazy">
+                        <span class="duration">103:05</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1721.html">给初生者以和平</a></h3>
+                        <p>斯大林格勒战役后,三个幸存的儿童在废墟中寻找食物,却被一队迷路的德国士兵劫持为人质。</p>
+                        <div class="movie-meta">
+                            <span>4.4万热度</span>
+                            <span>2025</span>
+                            <span>俄罗斯</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="俄罗斯小说" data-type="剧集" data-region="俄罗斯" data-year="2025" data-genre="剧情/历史/文学改编" data-tags="陀思妥耶夫斯基 当代重构 西伯利亚史诗">
+                    <a class="movie-cover" href="../movie/0735.html">
+                        <img src="../135.jpg" alt="俄罗斯小说" loading="lazy">
+                        <span class="duration">100:13</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0735.html">俄罗斯小说</a></h3>
+                        <p>一名莫斯科网红被流放到西伯利亚小镇,她发现自己正在活生生地经历陀思妥耶夫斯基《死屋手记》里的情节。</p>
+                        <div class="movie-meta">
+                            <span>2.9万热度</span>
+                            <span>2025</span>
+                            <span>俄罗斯</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="凯夫科厄" data-type="电影" data-region="俄罗斯" data-year="2026" data-genre="科幻/惊悚/哲学" data-tags="架空世界 意识上传 极寒">
+                    <a class="movie-cover" href="../movie/0350.html">
+                        <img src="../50.jpg" alt="凯夫科厄" loading="lazy">
+                        <span class="duration">116:59</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0350.html">凯夫科厄</a></h3>
+                        <p>在西伯利亚的永冻土层下,一个名为“凯夫科厄”的神秘设施里,沉睡的苏联意识实验体苏醒了。</p>
+                        <div class="movie-meta">
+                            <span>2.8万热度</span>
+                            <span>2026</span>
+                            <span>俄罗斯</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="行车记录仪" data-type="电影" data-region="俄罗斯" data-year="2021" data-genre="惊悚/悬疑" data-tags="伪纪录 公路 恐怖">
+                    <a class="movie-cover" href="../movie/0576.html">
+                        <img src="../126.jpg" alt="行车记录仪" loading="lazy">
+                        <span class="duration">80:12</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0576.html">行车记录仪</a></h3>
+                        <p>网红主播为博流量开着车在深夜直播,行车记录仪拍下了一场谋杀,而凶手正在直播弹幕里指挥他。</p>
+                        <div class="movie-meta">
+                            <span>3.5万热度</span>
+                            <span>2021</span>
+                            <span>俄罗斯</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="果戈里·恶灵" data-type="电影" data-region="俄罗斯" data-year="2024" data-genre="恐怖,悬疑,奇幻" data-tags="果戈里 死魂灵 哥萨克">
+                    <a class="movie-cover" href="../movie/1138.html">
+                        <img src="../88.jpg" alt="果戈里·恶灵" loading="lazy">
+                        <span class="duration">74:40</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1138.html">果戈里·恶灵</a></h3>
+                        <p>调查员果戈里来到一个每隔七年就会全员消失的村庄,发现村民都活着,只是灵魂被封印在了各自最恐惧的物件里。</p>
+                        <div class="movie-meta">
+                            <span>3.0万热度</span>
+                            <span>2024</span>
+                            <span>俄罗斯</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="潜行者" data-type="电影" data-region="俄罗斯" data-year="2024" data-genre="科幻,哲学" data-tags="禁区 房间 精神之旅">
+                    <a class="movie-cover" href="../movie/1085.html">
+                        <img src="../35.jpg" alt="潜行者" loading="lazy">
+                        <span class="duration">88:41</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1085.html">潜行者</a></h3>
+                        <p>在未来废土世界,一名“潜行者”带领客户穿越变异“禁区”,去寻找一个据说能实现潜意识愿望的神秘房间。</p>
+                        <div class="movie-meta">
+                            <span>1.1万热度</span>
+                            <span>2024</span>
+                            <span>俄罗斯</span>
+                        </div>
+                    </div>
+                </article>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <section>
+                <a class="footer-brand" href="../index.html">
+                    <span class="brand-mark">▶</span>
+                    <span>日韩热门影片</span>
+                </a>
+                <p>精选站内热门影片、剧集与片单内容，按题材、地区、年份与热度组织，方便快速发现想看的作品。</p>
+            </section>
+            <section>
+                <h2>快速导航</h2>
+                <a href="../categories.html">分类浏览</a>
+                <a href="../ranking.html">热度排行</a>
+                <a href="../movies/page-1.html">全部片库</a>
+                <a href="../search.html">搜索筛选</a>
+            </section>
+            <section>
+                <h2>内容入口</h2>
+                <a href="../category/main-001.html">日韩爱情</a>
+                <a href="../category/main-002.html">日韩悬疑</a>
+                <a href="../category/main-003.html">日韩古装</a>
+                <a href="../category/main-004.html">日韩动画</a>
+            </section>
+            <section>
+                <h2>站点服务</h2>
+                <a href="../about.html">关于本站</a>
+                <a href="../support.html">观看指南</a>
+                <a href="../copyright.html">版权声明</a>
+            </section>
+        </div>
+        <div class="container footer-bottom">
+            <p>© 2026 日韩热门影片. 持续整理站内热门片单与播放入口。</p>
+        </div>
+    </footer>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

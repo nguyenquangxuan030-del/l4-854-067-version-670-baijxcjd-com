@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>中国内地影片-日韩热门影片-热门影片片库-热门影片在线点播</title>
+    <meta name="description" content="日韩热门影片中国内地影片栏目，收录 11 部影片。">
+    <meta name="keywords" content="中国内地影片,日韩热门影片,热门影片片库,日韩影片,影片点播,热门电影,精选日韩影片,影片合集">
+    <meta name="applicable-device" content="pc,mobile">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="../assets/site.css">
+
+    <script src="../assets/site.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-bar">
+            <a class="brand" href="../index.html" aria-label="日韩热门影片首页">
+                <span class="brand-mark">▶</span>
+                <span>日韩热门影片</span>
+            </a>
+            <nav class="desktop-nav" aria-label="主导航">
+                <a href="../index.html">首页</a>
+                <a href="../categories.html">分类</a>
+                <a href="../ranking.html">排行榜</a>
+                <a href="../movies/page-1.html">片库</a>
+                <a href="../search.html">搜索</a>
+            </nav>
+            <form class="header-search search-form" action="../search.html" method="get">
+                <input type="search" name="q" placeholder="搜索影片、题材、地区" autocomplete="off">
+                <button type="submit">搜索</button>
+            </form>
+            <button class="mobile-toggle" type="button" aria-label="展开导航" aria-expanded="false">☰</button>
+        </div>
+        <div class="mobile-menu" hidden>
+            <form class="mobile-search search-form" action="../search.html" method="get">
+                <input type="search" name="q" placeholder="搜索影片、题材、地区" autocomplete="off">
+                <button type="submit">搜索</button>
+            </form>
+            <a href="../index.html">首页</a>
+            <a href="../categories.html">分类</a>
+            <a href="../ranking.html">排行榜</a>
+            <a href="../movies/page-1.html">片库</a>
+            <a href="../search.html">搜索</a>
+        </div>
+    </header>
+    <main>
+        <section class="page-hero compact-hero">
+            <div class="container">
+                <span class="section-kicker">Movie List</span>
+                <h1>中国内地影片</h1>
+                <p>当前栏目共 11 部影片，支持当前页关键词和条件筛选。</p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+            <section class="filter-panel" aria-label="筛选影片">
+                <input id="pageFilterKeyword" type="search" placeholder="在当前页面筛选片名、简介、题材">
+                <select id="pageFilterType">
+                    <option value="">全部类型</option>
+                    <option value="电影">电影</option>
+                    <option value="剧集">剧集</option>
+                    <option value="电视剧">电视剧</option>
+                    <option value="动画电影">动画电影</option>
+                    <option value="动画剧集">动画剧集</option>
+                    <option value="综艺">综艺</option>
+                    <option value="动画">动画</option>
+                    <option value="网络剧">网络剧</option>
+                    <option value="网络电影">网络电影</option>
+                    <option value="纪录片">纪录片</option>
+                    <option value="动漫">动漫</option>
+                    <option value="TV Series">TV Series</option>
+                    <option value="TV 剧集">TV 剧集</option>
+                    <option value="动画短片">动画短片</option>
+                    <option value="电影/动画">电影/动画</option>
+                    <option value="电影/纪录片">电影/纪录片</option>
+                    <option value="纪录片剧集">纪录片剧集</option>
+                    <option value="TV">TV</option>
+                    <option value="TV 动画">TV 动画</option>
+                    <option value="TV动画">TV动画</option>
+                    <option value="剧情/农村">剧情/农村</option>
+                    <option value="剧情/喜剧">剧情/喜剧</option>
+                    <option value="剧集,动画">剧集,动画</option>
+                    <option value="剧集/动画">剧集/动画</option>
+                    <option value="剧集/短剧">剧集/短剧</option>
+                    <option value="剧集/综艺">剧集/综艺</option>
+                    <option value="动画 动画/校园">动画 动画/校园</option>
+                    <option value="电影 (动画)">电影 (动画)</option>
+                    <option value="电影 纪录片">电影 纪录片</option>
+                    <option value="电影,动画">电影,动画</option>
+                </select>
+                <select id="pageFilterRegion">
+                    <option value="">全部地区</option>
+                    <option value="中国大陆">中国大陆</option>
+                    <option value="美国">美国</option>
+                    <option value="日本">日本</option>
+                    <option value="中国香港">中国香港</option>
+                    <option value="韩国">韩国</option>
+                    <option value="英国">英国</option>
+                    <option value="中国台湾">中国台湾</option>
+                    <option value="法国">法国</option>
+                    <option value="中国">中国</option>
+                    <option value="西班牙">西班牙</option>
+                    <option value="德国">德国</option>
+                    <option value="意大利">意大利</option>
+                    <option value="印度">印度</option>
+                    <option value="香港">香港</option>
+                    <option value="俄罗斯">俄罗斯</option>
+                    <option value="泰国">泰国</option>
+                    <option value="中国内地">中国内地</option>
+                    <option value="澳大利亚">澳大利亚</option>
+                    <option value="加拿大">加拿大</option>
+                    <option value="美国/英国">美国/英国</option>
+                    <option value="法国/比利时">法国/比利时</option>
+                    <option value="台湾">台湾</option>
+                    <option value="英国/美国">英国/美国</option>
+                    <option value="中国香港/中国大陆">中国香港/中国大陆</option>
+                    <option value="挪威">挪威</option>
+                    <option value="法国/德国">法国/德国</option>
+                    <option value="美国/德国">美国/德国</option>
+                    <option value="瑞典">瑞典</option>
+                    <option value="美国/中国大陆">美国/中国大陆</option>
+                    <option value="美国/加拿大">美国/加拿大</option>
+                    <option value="美国/墨西哥">美国/墨西哥</option>
+                    <option value="英国/法国">英国/法国</option>
+                    <option value="中国大陆,香港">中国大陆,香港</option>
+                    <option value="中国大陆/中国香港">中国大陆/中国香港</option>
+                    <option value="中国大陆/香港">中国大陆/香港</option>
+                    <option value="中国香港/台湾">中国香港/台湾</option>
+                    <option value="丹麦">丹麦</option>
+                    <option value="乌克兰">乌克兰</option>
+                    <option value="伊朗">伊朗</option>
+                    <option value="巴西">巴西</option>
+                </select>
+                <select id="pageFilterYear">
+                    <option value="">全部年份</option>
+                    <option value="2030">2030</option>
+                    <option value="2029">2029</option>
+                    <option value="2028">2028</option>
+                    <option value="2027">2027</option>
+                    <option value="2026">2026</option>
+                    <option value="2025">2025</option>
+                    <option value="2024">2024</option>
+                    <option value="2023">2023</option>
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                    <option value="2020">2020</option>
+                    <option value="2019">2019</option>
+                    <option value="2018">2018</option>
+                    <option value="2017">2017</option>
+                    <option value="2016">2016</option>
+                    <option value="2015">2015</option>
+                    <option value="2014">2014</option>
+                    <option value="2013">2013</option>
+                    <option value="2012">2012</option>
+                    <option value="2011">2011</option>
+                    <option value="2010">2010</option>
+                    <option value="2009">2009</option>
+                    <option value="2008">2008</option>
+                    <option value="2007">2007</option>
+                    <option value="2006">2006</option>
+                    <option value="2005">2005</option>
+                    <option value="2004">2004</option>
+                    <option value="2003">2003</option>
+                    <option value="2002">2002</option>
+                    <option value="2001">2001</option>
+                    <option value="2000">2000</option>
+                    <option value="1999">1999</option>
+                    <option value="1998">1998</option>
+                    <option value="1997">1997</option>
+                    <option value="1996">1996</option>
+                    <option value="1995">1995</option>
+                    <option value="1994">1994</option>
+                    <option value="1993">1993</option>
+                    <option value="1992">1992</option>
+                    <option value="1991">1991</option>
+                </select>
+                <a class="filter-link" href="../search.html">高级搜索</a>
+            </section>
+                <div class="movie-grid filterable-grid">
+                <article class="movie-card" data-title="光荣的追寻第一季" data-type="剧集" data-region="中国内地" data-year="2025" data-genre="剧情,悬疑,年代,谍战" data-tags="建国初期 反特 追凶">
+                    <a class="movie-cover" href="../movie/0254.html">
+                        <img src="../104.jpg" alt="光荣的追寻第一季" loading="lazy">
+                        <span class="duration">93:01</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0254.html">光荣的追寻第一季</a></h3>
+                        <p>新中国第一代刑事技术专家,在一穷二白的情况下,用“土办法”追踪国民党遗留在大陆的高级特务。</p>
+                        <div class="movie-meta">
+                            <span>15.9万热度</span>
+                            <span>2025</span>
+                            <span>中国内地</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="千门女王之螳螂捕蝉" data-type="电影" data-region="中国内地" data-year="2025" data-genre="悬疑、犯罪、动作" data-tags="千术 女骗子 局中局">
+                    <a class="movie-cover" href="../movie/0035.html">
+                        <img src="../35.jpg" alt="千门女王之螳螂捕蝉" loading="lazy">
+                        <span class="duration">123:30</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0035.html">千门女王之螳螂捕蝉</a></h3>
+                        <p>民国女赌王为报父仇设下惊天骗局,却发现自己只是另一盘棋中的“螳螂”。</p>
+                        <div class="movie-meta">
+                            <span>15.4万热度</span>
+                            <span>2025</span>
+                            <span>中国内地</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="天才神算" data-type="剧集" data-region="中国内地" data-year="2026" data-genre="古装、悬疑、喜剧" data-tags="数学天才 大唐 破案">
+                    <a class="movie-cover" href="../movie/0876.html">
+                        <img src="../126.jpg" alt="天才神算" loading="lazy">
+                        <span class="duration">100:18</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0876.html">天才神算</a></h3>
+                        <p>唐朝一个卖烧饼的数学天才,用勾股定理、概率论破解连环命案,却被卷入皇嗣之争。</p>
+                        <div class="movie-meta">
+                            <span>12.4万热度</span>
+                            <span>2026</span>
+                            <span>中国内地</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="如果我的田野会说话" data-type="电影" data-region="中国内地" data-year="2026" data-genre="文艺/奇幻" data-tags="诗意 乡村 留守儿童">
+                    <a class="movie-cover" href="../movie/1295.html">
+                        <img src="../95.jpg" alt="如果我的田野会说话" loading="lazy">
+                        <span class="duration">100:50</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1295.html">如果我的田野会说话</a></h3>
+                        <p>一个留守乡村的女孩,突然发现她能听懂田野里所有动植物的语言,而它们正警告她:推土机要来了。</p>
+                        <div class="movie-meta">
+                            <span>11.2万热度</span>
+                            <span>2026</span>
+                            <span>中国内地</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="判我有罪2015" data-type="电影" data-region="中国内地" data-year="2015" data-genre="犯罪,剧情" data-tags="庭审博弈 黑警 医患冲突">
+                    <a class="movie-cover" href="../movie/1605.html">
+                        <img src="../105.jpg" alt="判我有罪2015" loading="lazy">
+                        <span class="duration">116:25</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1605.html">判我有罪2015</a></h3>
+                        <p>急诊科主任被杀,女法医却在嫌犯血液里验出了自己丈夫的指纹。</p>
+                        <div class="movie-meta">
+                            <span>13.7万热度</span>
+                            <span>2015</span>
+                            <span>中国内地</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="我们那年" data-type="电影" data-region="中国内地" data-year="2015" data-genre="青春怀旧" data-tags="高考 暗恋 90年代">
+                    <a class="movie-cover" href="../movie/1236.html">
+                        <img src="../36.jpg" alt="我们那年" loading="lazy">
+                        <span class="duration">78:07</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1236.html">我们那年</a></h3>
+                        <p>高考前一百天,全班为保护一位被霸凌的女生,共同策划了一场“集体作弊”的报复。</p>
+                        <div class="movie-meta">
+                            <span>12.8万热度</span>
+                            <span>2015</span>
+                            <span>中国内地</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="迷你姑娘" data-type="电影" data-region="中国内地" data-year="2024" data-genre="剧情、奇幻" data-tags="身高歧视 微缩人 社会寓言">
+                    <a class="movie-cover" href="../movie/0258.html">
+                        <img src="../108.jpg" alt="迷你姑娘" loading="lazy">
+                        <span class="duration">73:18</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0258.html">迷你姑娘</a></h3>
+                        <p>一名身高只有80厘米的“微缩人”女孩,在被迫进入“怪胎秀”直播公司后,暗中组建了矮人互助会,策划一场震惊社会的出逃。</p>
+                        <div class="movie-meta">
+                            <span>9.6万热度</span>
+                            <span>2024</span>
+                            <span>中国内地</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="心动的信号 第六季" data-type="综艺" data-region="中国内地" data-year="2024" data-genre="恋爱/真人秀" data-tags="素人 恋爱观察 心动小屋">
+                    <a class="movie-cover" href="../movie/0574.html">
+                        <img src="../124.jpg" alt="心动的信号 第六季" loading="lazy">
+                        <span class="duration">114:09</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0574.html">心动的信号 第六季</a></h3>
+                        <p>六位素人住进海边心动小屋,本季规则大改——没有告白夜,只有最后一次真心话大冒险。</p>
+                        <div class="movie-meta">
+                            <span>8.1万热度</span>
+                            <span>2024</span>
+                            <span>中国内地</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="穿越者之异梦空间" data-type="电视剧" data-region="中国内地" data-year="2025" data-genre="科幻,爱情" data-tags="穿越 梦境 多重宇宙">
+                    <a class="movie-cover" href="../movie/1645.html">
+                        <img src="../145.jpg" alt="穿越者之异梦空间" loading="lazy">
+                        <span class="duration">116:23</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1645.html">穿越者之异梦空间</a></h3>
+                        <p>女科学家发明入梦机,潜入暗恋男神的梦境,却发现他每晚都在做同一个关于“杀死她”的噩梦。</p>
+                        <div class="movie-meta">
+                            <span>8.1万热度</span>
+                            <span>2025</span>
+                            <span>中国内地</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="快乐老友记第二季" data-type="剧集" data-region="中国内地" data-year="2024" data-genre="真人秀/剧情" data-tags="友情 中老年 治愈">
+                    <a class="movie-cover" href="../movie/1878.html">
+                        <img src="../78.jpg" alt="快乐老友记第二季" loading="lazy">
+                        <span class="duration">90:01</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1878.html">快乐老友记第二季</a></h3>
+                        <p>第一季中修复关系的六位老友,这一季决定卖掉房子,合开一家“只招待陌生人的民宿”。</p>
+                        <div class="movie-meta">
+                            <span>6.6万热度</span>
+                            <span>2024</span>
+                            <span>中国内地</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="亲爱的麻洋街" data-type="电视剧" data-region="中国内地" data-year="2025" data-genre="剧情,家庭" data-tags="年代 邻里 成长">
+                    <a class="movie-cover" href="../movie/0317.html">
+                        <img src="../17.jpg" alt="亲爱的麻洋街" loading="lazy">
+                        <span class="duration">97:09</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0317.html">亲爱的麻洋街</a></h3>
+                        <p>90年代南方小镇麻洋街上,六个性格迥异的孩子见证了三户人家的隐秘纠葛与时代变迁。</p>
+                        <div class="movie-meta">
+                            <span>1.4万热度</span>
+                            <span>2025</span>
+                            <span>中国内地</span>
+                        </div>
+                    </div>
+                </article>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <section>
+                <a class="footer-brand" href="../index.html">
+                    <span class="brand-mark">▶</span>
+                    <span>日韩热门影片</span>
+                </a>
+                <p>精选站内热门影片、剧集与片单内容，按题材、地区、年份与热度组织，方便快速发现想看的作品。</p>
+            </section>
+            <section>
+                <h2>快速导航</h2>
+                <a href="../categories.html">分类浏览</a>
+                <a href="../ranking.html">热度排行</a>
+                <a href="../movies/page-1.html">全部片库</a>
+                <a href="../search.html">搜索筛选</a>
+            </section>
+            <section>
+                <h2>内容入口</h2>
+                <a href="../category/main-001.html">日韩爱情</a>
+                <a href="../category/main-002.html">日韩悬疑</a>
+                <a href="../category/main-003.html">日韩古装</a>
+                <a href="../category/main-004.html">日韩动画</a>
+            </section>
+            <section>
+                <h2>站点服务</h2>
+                <a href="../about.html">关于本站</a>
+                <a href="../support.html">观看指南</a>
+                <a href="../copyright.html">版权声明</a>
+            </section>
+        </div>
+        <div class="container footer-bottom">
+            <p>© 2026 日韩热门影片. 持续整理站内热门片单与播放入口。</p>
+        </div>
+    </footer>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

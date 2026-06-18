@@ -1,0 +1,632 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>动画电影片库-日韩热门影片-热门影片片库-热门影片在线点播</title>
+    <meta name="description" content="日韩热门影片动画电影片库，收录 25 部影片与剧集条目。">
+    <meta name="keywords" content="动画电影片库,日韩热门影片,热门影片片库,日韩影片,影片点播,热门电影,精选日韩影片,影片合集">
+    <meta name="applicable-device" content="pc,mobile">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="../assets/site.css">
+
+    <script src="../assets/site.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-bar">
+            <a class="brand" href="../index.html" aria-label="日韩热门影片首页">
+                <span class="brand-mark">▶</span>
+                <span>日韩热门影片</span>
+            </a>
+            <nav class="desktop-nav" aria-label="主导航">
+                <a href="../index.html">首页</a>
+                <a href="../categories.html">分类</a>
+                <a href="../ranking.html">排行榜</a>
+                <a href="../movies/page-1.html">片库</a>
+                <a href="../search.html">搜索</a>
+            </nav>
+            <form class="header-search search-form" action="../search.html" method="get">
+                <input type="search" name="q" placeholder="搜索影片、题材、地区" autocomplete="off">
+                <button type="submit">搜索</button>
+            </form>
+            <button class="mobile-toggle" type="button" aria-label="展开导航" aria-expanded="false">☰</button>
+        </div>
+        <div class="mobile-menu" hidden>
+            <form class="mobile-search search-form" action="../search.html" method="get">
+                <input type="search" name="q" placeholder="搜索影片、题材、地区" autocomplete="off">
+                <button type="submit">搜索</button>
+            </form>
+            <a href="../index.html">首页</a>
+            <a href="../categories.html">分类</a>
+            <a href="../ranking.html">排行榜</a>
+            <a href="../movies/page-1.html">片库</a>
+            <a href="../search.html">搜索</a>
+        </div>
+    </header>
+    <main>
+        <section class="page-hero compact-hero">
+            <div class="container">
+                <span class="section-kicker">Movie List</span>
+                <h1>动画电影片库</h1>
+                <p>当前栏目共 25 部影片，支持当前页关键词和条件筛选。</p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+            <section class="filter-panel" aria-label="筛选影片">
+                <input id="pageFilterKeyword" type="search" placeholder="在当前页面筛选片名、简介、题材">
+                <select id="pageFilterType">
+                    <option value="">全部类型</option>
+                    <option value="电影">电影</option>
+                    <option value="剧集">剧集</option>
+                    <option value="电视剧">电视剧</option>
+                    <option value="动画电影">动画电影</option>
+                    <option value="动画剧集">动画剧集</option>
+                    <option value="综艺">综艺</option>
+                    <option value="动画">动画</option>
+                    <option value="网络剧">网络剧</option>
+                    <option value="网络电影">网络电影</option>
+                    <option value="纪录片">纪录片</option>
+                    <option value="动漫">动漫</option>
+                    <option value="TV Series">TV Series</option>
+                    <option value="TV 剧集">TV 剧集</option>
+                    <option value="动画短片">动画短片</option>
+                    <option value="电影/动画">电影/动画</option>
+                    <option value="电影/纪录片">电影/纪录片</option>
+                    <option value="纪录片剧集">纪录片剧集</option>
+                    <option value="TV">TV</option>
+                    <option value="TV 动画">TV 动画</option>
+                    <option value="TV动画">TV动画</option>
+                    <option value="剧情/农村">剧情/农村</option>
+                    <option value="剧情/喜剧">剧情/喜剧</option>
+                    <option value="剧集,动画">剧集,动画</option>
+                    <option value="剧集/动画">剧集/动画</option>
+                    <option value="剧集/短剧">剧集/短剧</option>
+                    <option value="剧集/综艺">剧集/综艺</option>
+                    <option value="动画 动画/校园">动画 动画/校园</option>
+                    <option value="电影 (动画)">电影 (动画)</option>
+                    <option value="电影 纪录片">电影 纪录片</option>
+                    <option value="电影,动画">电影,动画</option>
+                </select>
+                <select id="pageFilterRegion">
+                    <option value="">全部地区</option>
+                    <option value="中国大陆">中国大陆</option>
+                    <option value="美国">美国</option>
+                    <option value="日本">日本</option>
+                    <option value="中国香港">中国香港</option>
+                    <option value="韩国">韩国</option>
+                    <option value="英国">英国</option>
+                    <option value="中国台湾">中国台湾</option>
+                    <option value="法国">法国</option>
+                    <option value="中国">中国</option>
+                    <option value="西班牙">西班牙</option>
+                    <option value="德国">德国</option>
+                    <option value="意大利">意大利</option>
+                    <option value="印度">印度</option>
+                    <option value="香港">香港</option>
+                    <option value="俄罗斯">俄罗斯</option>
+                    <option value="泰国">泰国</option>
+                    <option value="中国内地">中国内地</option>
+                    <option value="澳大利亚">澳大利亚</option>
+                    <option value="加拿大">加拿大</option>
+                    <option value="美国/英国">美国/英国</option>
+                    <option value="法国/比利时">法国/比利时</option>
+                    <option value="台湾">台湾</option>
+                    <option value="英国/美国">英国/美国</option>
+                    <option value="中国香港/中国大陆">中国香港/中国大陆</option>
+                    <option value="挪威">挪威</option>
+                    <option value="法国/德国">法国/德国</option>
+                    <option value="美国/德国">美国/德国</option>
+                    <option value="瑞典">瑞典</option>
+                    <option value="美国/中国大陆">美国/中国大陆</option>
+                    <option value="美国/加拿大">美国/加拿大</option>
+                    <option value="美国/墨西哥">美国/墨西哥</option>
+                    <option value="英国/法国">英国/法国</option>
+                    <option value="中国大陆,香港">中国大陆,香港</option>
+                    <option value="中国大陆/中国香港">中国大陆/中国香港</option>
+                    <option value="中国大陆/香港">中国大陆/香港</option>
+                    <option value="中国香港/台湾">中国香港/台湾</option>
+                    <option value="丹麦">丹麦</option>
+                    <option value="乌克兰">乌克兰</option>
+                    <option value="伊朗">伊朗</option>
+                    <option value="巴西">巴西</option>
+                </select>
+                <select id="pageFilterYear">
+                    <option value="">全部年份</option>
+                    <option value="2030">2030</option>
+                    <option value="2029">2029</option>
+                    <option value="2028">2028</option>
+                    <option value="2027">2027</option>
+                    <option value="2026">2026</option>
+                    <option value="2025">2025</option>
+                    <option value="2024">2024</option>
+                    <option value="2023">2023</option>
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                    <option value="2020">2020</option>
+                    <option value="2019">2019</option>
+                    <option value="2018">2018</option>
+                    <option value="2017">2017</option>
+                    <option value="2016">2016</option>
+                    <option value="2015">2015</option>
+                    <option value="2014">2014</option>
+                    <option value="2013">2013</option>
+                    <option value="2012">2012</option>
+                    <option value="2011">2011</option>
+                    <option value="2010">2010</option>
+                    <option value="2009">2009</option>
+                    <option value="2008">2008</option>
+                    <option value="2007">2007</option>
+                    <option value="2006">2006</option>
+                    <option value="2005">2005</option>
+                    <option value="2004">2004</option>
+                    <option value="2003">2003</option>
+                    <option value="2002">2002</option>
+                    <option value="2001">2001</option>
+                    <option value="2000">2000</option>
+                    <option value="1999">1999</option>
+                    <option value="1998">1998</option>
+                    <option value="1997">1997</option>
+                    <option value="1996">1996</option>
+                    <option value="1995">1995</option>
+                    <option value="1994">1994</option>
+                    <option value="1993">1993</option>
+                    <option value="1992">1992</option>
+                    <option value="1991">1991</option>
+                </select>
+                <a class="filter-link" href="../search.html">高级搜索</a>
+            </section>
+                <div class="movie-grid filterable-grid">
+                <article class="movie-card" data-title="大雄的天方夜谭" data-type="动画电影" data-region="日本" data-year="2025" data-genre="奇幻/冒险/家庭" data-tags="哆啦A梦 一千零一夜 平行宇宙">
+                    <a class="movie-cover" href="../movie/0144.html">
+                        <img src="../144.jpg" alt="大雄的天方夜谭" loading="lazy">
+                        <span class="duration">102:16</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0144.html">大雄的天方夜谭</a></h3>
+                        <p>大雄用如果电话亭进入《一千零一夜》世界,却发现故事书被魔改,自己必须成为辛巴达才能回家。</p>
+                        <div class="movie-meta">
+                            <span>18.9万热度</span>
+                            <span>2025</span>
+                            <span>日本</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="春天之旅" data-type="动画电影" data-region="日本" data-year="2024" data-genre="剧情/家庭" data-tags="公路 治愈 植物">
+                    <a class="movie-cover" href="../movie/0834.html">
+                        <img src="../84.jpg" alt="春天之旅" loading="lazy">
+                        <span class="duration">112:24</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0834.html">春天之旅</a></h3>
+                        <p>癌细胞扩散的奶奶,带着孙女踏上寻找“春天准时开的那棵樱花树”之路。</p>
+                        <div class="movie-meta">
+                            <span>19.0万热度</span>
+                            <span>2024</span>
+                            <span>日本</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="超人特攻与钢铁人" data-type="动画电影" data-region="美国" data-year="2023" data-genre="动作,科幻,喜剧" data-tags="超级英雄 反套路 合体机甲">
+                    <a class="movie-cover" href="../movie/1648.html">
+                        <img src="../148.jpg" alt="超人特攻与钢铁人" loading="lazy">
+                        <span class="duration">109:34</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1648.html">超人特攻与钢铁人</a></h3>
+                        <p>超级英雄家族的退休奶爸被迫与自恋的钢铁侠组队,拯救被AI操控的底特律。</p>
+                        <div class="movie-meta">
+                            <span>18.6万热度</span>
+                            <span>2023</span>
+                            <span>美国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="亚瑟的奇幻王国:跨界对决" data-type="动画电影" data-region="法国/比利时" data-year="2026" data-genre="奇幻冒险" data-tags="动画 跨界 对决">
+                    <a class="movie-cover" href="../movie/1688.html">
+                        <img src="../38.jpg" alt="亚瑟的奇幻王国:跨界对决" loading="lazy">
+                        <span class="duration">123:57</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1688.html">亚瑟的奇幻王国:跨界对决</a></h3>
+                        <p>亚瑟带着迷你王国的小伙伴意外穿越进了一款现代游戏,必须在两个世界同时战斗才能拯救家园。</p>
+                        <div class="movie-meta">
+                            <span>17.6万热度</span>
+                            <span>2026</span>
+                            <span>法国/比利时</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="圣斗士星矢 极乐净土篇" data-type="动画电影" data-region="日本" data-year="2024" data-genre="动作/奇幻/热血" data-tags="经典IP 热血战斗 神话题材">
+                    <a class="movie-cover" href="../movie/1488.html">
+                        <img src="../138.jpg" alt="圣斗士星矢 极乐净土篇" loading="lazy">
+                        <span class="duration">119:39</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1488.html">圣斗士星矢 极乐净土篇</a></h3>
+                        <p>星矢等人终于抵达极乐净土,却发现要打倒哈迪斯,必须摧毁能令灵魂永生的伟大奇迹。</p>
+                        <div class="movie-meta">
+                            <span>17.6万热度</span>
+                            <span>2024</span>
+                            <span>日本</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="超人总动员2" data-type="动画电影" data-region="美国" data-year="2024" data-genre="喜剧/动作/家庭" data-tags="超能力者 中年危机 育儿灾难">
+                    <a class="movie-cover" href="../movie/0623.html">
+                        <img src="../23.jpg" alt="超人总动员2" loading="lazy">
+                        <span class="duration">90:22</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0623.html">超人总动员2</a></h3>
+                        <p>超能先生在家当全职奶爸带三个超能力孩子,弹力女超人外出拯救世界,而反派是一个想让所有超能力者“退休”的保险精算师。</p>
+                        <div class="movie-meta">
+                            <span>15.8万热度</span>
+                            <span>2024</span>
+                            <span>美国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="罗罗大冒险" data-type="动画电影" data-region="中国大陆" data-year="2026" data-genre="冒险/奇幻/合家欢" data-tags="成长之旅 奇幻生物 环保主题">
+                    <a class="movie-cover" href="../movie/1044.html">
+                        <img src="../144.jpg" alt="罗罗大冒险" loading="lazy">
+                        <span class="duration">108:15</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1044.html">罗罗大冒险</a></h3>
+                        <p>为了寻找传说中能治愈“灰色病”的彩虹花,小狐狸罗罗踏上了穿越五大奇异国度的冒险。</p>
+                        <div class="movie-meta">
+                            <span>14.9万热度</span>
+                            <span>2026</span>
+                            <span>中国大陆</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="麦德兰:迷失在巴黎" data-type="动画电影" data-region="法国/加拿大" data-year="2025" data-genre="动画,冒险,家庭" data-tags="经典IP 巴黎地标 少女冒险">
+                    <a class="movie-cover" href="../movie/0782.html">
+                        <img src="../32.jpg" alt="麦德兰:迷失在巴黎" loading="lazy">
+                        <span class="duration">107:10</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0782.html">麦德兰:迷失在巴黎</a></h3>
+                        <p>为了寻找走失的小狗,最小的女孩麦德兰在巴黎地下墓穴中卷入了一场古董玩具的叛乱。</p>
+                        <div class="movie-meta">
+                            <span>15.2万热度</span>
+                            <span>2025</span>
+                            <span>法国/加拿大</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="至爱梵高·星空之谜" data-type="动画电影" data-region="英国/波兰" data-year="2017" data-genre="传记悬疑" data-tags="油画动画 梵高 手绘">
+                    <a class="movie-cover" href="../movie/0768.html">
+                        <img src="../18.jpg" alt="至爱梵高·星空之谜" loading="lazy">
+                        <span class="duration">106:27</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0768.html">至爱梵高·星空之谜</a></h3>
+                        <p>用65000幅手绘油画,还原梵高的人生轨迹,并试图揭开他自杀背后的真实原因。</p>
+                        <div class="movie-meta">
+                            <span>16.8万热度</span>
+                            <span>2017</span>
+                            <span>英国/波兰</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="觅法奇程" data-type="动画电影" data-region="美国/中国大陆" data-year="2025" data-genre="动画、奇幻、冒险" data-tags="魔法 寻亲 成长">
+                    <a class="movie-cover" href="../movie/1990.html">
+                        <img src="../40.jpg" alt="觅法奇程" loading="lazy">
+                        <span class="duration">122:48</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1990.html">觅法奇程</a></h3>
+                        <p>为了找回被偷走的魔法天赋,一个没有魔力的小魔法师与一只贪吃的会说话的猫,踏上了一段啼笑皆非的旅程。</p>
+                        <div class="movie-meta">
+                            <span>14.1万热度</span>
+                            <span>2025</span>
+                            <span>美国/中国大陆</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="小狼人多弗国语" data-type="动画电影" data-region="中国" data-year="2025" data-genre="奇幻/家庭" data-tags="狼人 留守儿童 满月">
+                    <a class="movie-cover" href="../movie/1906.html">
+                        <img src="../106.jpg" alt="小狼人多弗国语" loading="lazy">
+                        <span class="duration">103:35</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1906.html">小狼人多弗国语</a></h3>
+                        <p>山村留守儿童每逢满月会变成小狼人,进城打工的父亲为他寄来一副能锁住狼嘴的口笼。</p>
+                        <div class="movie-meta">
+                            <span>13.7万热度</span>
+                            <span>2025</span>
+                            <span>中国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="森林奇旅" data-type="动画电影" data-region="巴西/美国" data-year="2021" data-genre="动画,奇幻,冒险" data-tags="亚马逊 环保 神话">
+                    <a class="movie-cover" href="../movie/0961.html">
+                        <img src="../61.jpg" alt="森林奇旅" loading="lazy">
+                        <span class="duration">108:47</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0961.html">森林奇旅</a></h3>
+                        <p>为了拯救被伐木者摧毁的家园,一个城市女孩必须进入森林深处,唤醒沉睡的森林守护神。</p>
+                        <div class="movie-meta">
+                            <span>13.4万热度</span>
+                            <span>2021</span>
+                            <span>巴西/美国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="顽皮豹风笛手" data-type="动画电影" data-region="英国/法国" data-year="2026" data-genre="喜剧/音乐/家庭" data-tags="动物主角 苏格兰风情 破案喜剧">
+                    <a class="movie-cover" href="../movie/0960.html">
+                        <img src="../60.jpg" alt="顽皮豹风笛手" loading="lazy">
+                        <span class="duration">75:44</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0960.html">顽皮豹风笛手</a></h3>
+                        <p>一只粉色的豹子学会了吹风笛,然后整个小镇的老鼠都开始跳舞。</p>
+                        <div class="movie-meta">
+                            <span>11.0万热度</span>
+                            <span>2026</span>
+                            <span>英国/法国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="威乐比这一家" data-type="动画电影" data-region="加拿大/美国" data-year="2020" data-genre="喜剧/冒险/家庭" data-tags="自私父母 孤儿冒险 温暖治愈">
+                    <a class="movie-cover" href="../movie/1732.html">
+                        <img src="../82.jpg" alt="威乐比这一家" loading="lazy">
+                        <span class="duration">82:14</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1732.html">威乐比这一家</a></h3>
+                        <p>威乐比家的父母把孩子“邮寄”出去度假后,四个孩子决定自己寻找“理想父母”。</p>
+                        <div class="movie-meta">
+                            <span>11.9万热度</span>
+                            <span>2020</span>
+                            <span>加拿大/美国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="坏蛋联盟:坏坏假期" data-type="动画电影" data-region="美国" data-year="2026" data-genre="喜剧、动作、冒险" data-tags="衍生篇 反派洗白 圣诞假期">
+                    <a class="movie-cover" href="../movie/1364.html">
+                        <img src="../14.jpg" alt="坏蛋联盟:坏坏假期" loading="lazy">
+                        <span class="duration">87:17</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1364.html">坏蛋联盟:坏坏假期</a></h3>
+                        <p>想做好人的坏蛋联盟被迫参加“圣诞好公民大赛”,却意外卷入真劫案。</p>
+                        <div class="movie-meta">
+                            <span>9.2万热度</span>
+                            <span>2026</span>
+                            <span>美国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="七大罪:天空的囚人" data-type="动画电影" data-region="日本" data-year="2018" data-genre="热血/奇幻/冒险" data-tags="剧场版 战斗 友谊">
+                    <a class="movie-cover" href="../movie/1613.html">
+                        <img src="../113.jpg" alt="七大罪:天空的囚人" loading="lazy">
+                        <span class="duration">117:43</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1613.html">七大罪:天空的囚人</a></h3>
+                        <p>七大罪为救被天空监狱囚禁的精灵,必须与六位“天空骑士”对决,而监狱里关着一位他们以为早已死去的故人。</p>
+                        <div class="movie-meta">
+                            <span>11.0万热度</span>
+                            <span>2018</span>
+                            <span>日本</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="功夫小兔侠" data-type="动画电影" data-region="中国大陆" data-year="2024" data-genre="喜剧/动作/儿童" data-tags="动物功夫 反派萌化 传统武术">
+                    <a class="movie-cover" href="../movie/1834.html">
+                        <img src="../34.jpg" alt="功夫小兔侠" loading="lazy">
+                        <span class="duration">111:39</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1834.html">功夫小兔侠</a></h3>
+                        <p>一只梦想成为大侠的兔子,阴差阳错学会了失传的“醉仙拳”,但每打一套拳就会醉倒睡一整天,敌人总是在它醒来时已经被它梦游中打飞了。</p>
+                        <div class="movie-meta">
+                            <span>7.9万热度</span>
+                            <span>2024</span>
+                            <span>中国大陆</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="深海恐龙" data-type="动画电影" data-region="中国大陆" data-year="2025" data-genre="动画,冒险,奇幻" data-tags="恐龙 深海 友情">
+                    <a class="movie-cover" href="../movie/1480.html">
+                        <img src="../130.jpg" alt="深海恐龙" loading="lazy">
+                        <span class="duration">73:00</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1480.html">深海恐龙</a></h3>
+                        <p>一只误入深海吃下辐射海藻的腕龙,成了海底霸主,也成了污染的信使。</p>
+                        <div class="movie-meta">
+                            <span>5.6万热度</span>
+                            <span>2025</span>
+                            <span>中国大陆</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="小侦探智破非洲犀牛案" data-type="动画电影" data-region="中国" data-year="2024" data-genre="悬疑、冒险、喜剧" data-tags="非洲 动物保护 少年侦探">
+                    <a class="movie-cover" href="../movie/0478.html">
+                        <img src="../28.jpg" alt="小侦探智破非洲犀牛案" loading="lazy">
+                        <span class="duration">89:52</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0478.html">小侦探智破非洲犀牛案</a></h3>
+                        <p>十岁小侦探随父母去非洲度假,却发现犀牛接连失踪,而真凶竟是最不可能的人。</p>
+                        <div class="movie-meta">
+                            <span>3.1万热度</span>
+                            <span>2024</span>
+                            <span>中国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="五香宫的猫" data-type="动画电影" data-region="日本" data-year="2019" data-genre="奇幻/治愈/家庭" data-tags="猫咪 神社 时间回溯">
+                    <a class="movie-cover" href="../movie/0721.html">
+                        <img src="../121.jpg" alt="五香宫的猫" loading="lazy">
+                        <span class="duration">85:24</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0721.html">五香宫的猫</a></h3>
+                        <p>一个无法接受祖母去世的女孩,发现神社里的招财猫每晚都会带她回到过去见祖母一面。</p>
+                        <div class="movie-meta">
+                            <span>4.4万热度</span>
+                            <span>2019</span>
+                            <span>日本</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="芭比公主历险记" data-type="动画电影" data-region="美国" data-year="2022" data-genre="奇幻,冒险" data-tags="公主 魔法 历险">
+                    <a class="movie-cover" href="../movie/0260.html">
+                        <img src="../110.jpg" alt="芭比公主历险记" loading="lazy">
+                        <span class="duration">81:47</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0260.html">芭比公主历险记</a></h3>
+                        <p>当芭比公主不小心穿越到童话书外的好莱坞,她必须赶在书页被烧毁前,教会一个普通女孩如何当公主。</p>
+                        <div class="movie-meta">
+                            <span>3.7万热度</span>
+                            <span>2022</span>
+                            <span>美国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="蝙蝠侠:缄默" data-type="动画电影" data-region="美国" data-year="2024" data-genre="动作,悬疑,犯罪" data-tags="心理战 宿敌 经典改编">
+                    <a class="movie-cover" href="../movie/0780.html">
+                        <img src="../30.jpg" alt="蝙蝠侠:缄默" loading="lazy">
+                        <span class="duration">114:14</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0780.html">蝙蝠侠:缄默</a></h3>
+                        <p>哥谭市出现神秘黑客“缄默”,他操控所有反派围攻蝙蝠侠,且似乎知道布鲁斯·韦恩的一切秘密。</p>
+                        <div class="movie-meta">
+                            <span>2.2万热度</span>
+                            <span>2024</span>
+                            <span>美国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="恶灵古堡:死亡岛" data-type="动画电影" data-region="美国/日本" data-year="2023" data-genre="动作/恐怖/科幻" data-tags="丧尸 生化危机 监狱岛">
+                    <a class="movie-cover" href="../movie/1084.html">
+                        <img src="../34.jpg" alt="恶灵古堡:死亡岛" loading="lazy">
+                        <span class="duration">87:39</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1084.html">恶灵古堡:死亡岛</a></h3>
+                        <p>全球丧尸疫情爆发,主角团被困在恶魔岛监狱,发现这里关押的不是囚犯,而是初代暴君原型。</p>
+                        <div class="movie-meta">
+                            <span>1.8万热度</span>
+                            <span>2023</span>
+                            <span>美国/日本</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="剧场版 咒术回战 0" data-type="动画电影" data-region="日本" data-year="2021" data-genre="动作/奇幻/黑暗" data-tags="咒术 纯爱战神 乙骨忧太">
+                    <a class="movie-cover" href="../movie/0179.html">
+                        <img src="../29.jpg" alt="剧场版 咒术回战 0" loading="lazy">
+                        <span class="duration">123:41</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0179.html">剧场版 咒术回战 0</a></h3>
+                        <p>因车祸被特级咒灵附身的少年乙骨忧太,为解开青梅竹马的诅咒,决意成为咒术师。</p>
+                        <div class="movie-meta">
+                            <span>2.1万热度</span>
+                            <span>2021</span>
+                            <span>日本</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="福音战士新剧场版:破" data-type="动画电影" data-region="日本" data-year="2009" data-genre="科幻/机甲/心理" data-tags="EVA 重制 使徒">
+                    <a class="movie-cover" href="../movie/0559.html">
+                        <img src="../109.jpg" alt="福音战士新剧场版:破" loading="lazy">
+                        <span class="duration">74:06</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0559.html">福音战士新剧场版:破</a></h3>
+                        <p>第五适格者真希波登场,而明日香在与新使徒的战斗中精神污染,生死未卜。</p>
+                        <div class="movie-meta">
+                            <span>2.3万热度</span>
+                            <span>2009</span>
+                            <span>日本</span>
+                        </div>
+                    </div>
+                </article>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <section>
+                <a class="footer-brand" href="../index.html">
+                    <span class="brand-mark">▶</span>
+                    <span>日韩热门影片</span>
+                </a>
+                <p>精选站内热门影片、剧集与片单内容，按题材、地区、年份与热度组织，方便快速发现想看的作品。</p>
+            </section>
+            <section>
+                <h2>快速导航</h2>
+                <a href="../categories.html">分类浏览</a>
+                <a href="../ranking.html">热度排行</a>
+                <a href="../movies/page-1.html">全部片库</a>
+                <a href="../search.html">搜索筛选</a>
+            </section>
+            <section>
+                <h2>内容入口</h2>
+                <a href="../category/main-001.html">日韩爱情</a>
+                <a href="../category/main-002.html">日韩悬疑</a>
+                <a href="../category/main-003.html">日韩古装</a>
+                <a href="../category/main-004.html">日韩动画</a>
+            </section>
+            <section>
+                <h2>站点服务</h2>
+                <a href="../about.html">关于本站</a>
+                <a href="../support.html">观看指南</a>
+                <a href="../copyright.html">版权声明</a>
+            </section>
+        </div>
+        <div class="container footer-bottom">
+            <p>© 2026 日韩热门影片. 持续整理站内热门片单与播放入口。</p>
+        </div>
+    </footer>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

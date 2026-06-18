@@ -1,0 +1,824 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>2020年影片-日韩热门影片-热门影片片库-热门影片在线点播</title>
+    <meta name="description" content="日韩热门影片2020年影片栏目，收录 37 部影片。">
+    <meta name="keywords" content="2020年影片,日韩热门影片,热门影片片库,日韩影片,影片点播,热门电影,精选日韩影片,影片合集">
+    <meta name="applicable-device" content="pc,mobile">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="../assets/site.css">
+
+    <script src="../assets/site.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-bar">
+            <a class="brand" href="../index.html" aria-label="日韩热门影片首页">
+                <span class="brand-mark">▶</span>
+                <span>日韩热门影片</span>
+            </a>
+            <nav class="desktop-nav" aria-label="主导航">
+                <a href="../index.html">首页</a>
+                <a href="../categories.html">分类</a>
+                <a href="../ranking.html">排行榜</a>
+                <a href="../movies/page-1.html">片库</a>
+                <a href="../search.html">搜索</a>
+            </nav>
+            <form class="header-search search-form" action="../search.html" method="get">
+                <input type="search" name="q" placeholder="搜索影片、题材、地区" autocomplete="off">
+                <button type="submit">搜索</button>
+            </form>
+            <button class="mobile-toggle" type="button" aria-label="展开导航" aria-expanded="false">☰</button>
+        </div>
+        <div class="mobile-menu" hidden>
+            <form class="mobile-search search-form" action="../search.html" method="get">
+                <input type="search" name="q" placeholder="搜索影片、题材、地区" autocomplete="off">
+                <button type="submit">搜索</button>
+            </form>
+            <a href="../index.html">首页</a>
+            <a href="../categories.html">分类</a>
+            <a href="../ranking.html">排行榜</a>
+            <a href="../movies/page-1.html">片库</a>
+            <a href="../search.html">搜索</a>
+        </div>
+    </header>
+    <main>
+        <section class="page-hero compact-hero">
+            <div class="container">
+                <span class="section-kicker">Movie List</span>
+                <h1>2020年影片</h1>
+                <p>当前栏目共 37 部影片，支持当前页关键词和条件筛选。</p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+            <section class="filter-panel" aria-label="筛选影片">
+                <input id="pageFilterKeyword" type="search" placeholder="在当前页面筛选片名、简介、题材">
+                <select id="pageFilterType">
+                    <option value="">全部类型</option>
+                    <option value="电影">电影</option>
+                    <option value="剧集">剧集</option>
+                    <option value="电视剧">电视剧</option>
+                    <option value="动画电影">动画电影</option>
+                    <option value="动画剧集">动画剧集</option>
+                    <option value="综艺">综艺</option>
+                    <option value="动画">动画</option>
+                    <option value="网络剧">网络剧</option>
+                    <option value="网络电影">网络电影</option>
+                    <option value="纪录片">纪录片</option>
+                    <option value="动漫">动漫</option>
+                    <option value="TV Series">TV Series</option>
+                    <option value="TV 剧集">TV 剧集</option>
+                    <option value="动画短片">动画短片</option>
+                    <option value="电影/动画">电影/动画</option>
+                    <option value="电影/纪录片">电影/纪录片</option>
+                    <option value="纪录片剧集">纪录片剧集</option>
+                    <option value="TV">TV</option>
+                    <option value="TV 动画">TV 动画</option>
+                    <option value="TV动画">TV动画</option>
+                    <option value="剧情/农村">剧情/农村</option>
+                    <option value="剧情/喜剧">剧情/喜剧</option>
+                    <option value="剧集,动画">剧集,动画</option>
+                    <option value="剧集/动画">剧集/动画</option>
+                    <option value="剧集/短剧">剧集/短剧</option>
+                    <option value="剧集/综艺">剧集/综艺</option>
+                    <option value="动画 动画/校园">动画 动画/校园</option>
+                    <option value="电影 (动画)">电影 (动画)</option>
+                    <option value="电影 纪录片">电影 纪录片</option>
+                    <option value="电影,动画">电影,动画</option>
+                </select>
+                <select id="pageFilterRegion">
+                    <option value="">全部地区</option>
+                    <option value="中国大陆">中国大陆</option>
+                    <option value="美国">美国</option>
+                    <option value="日本">日本</option>
+                    <option value="中国香港">中国香港</option>
+                    <option value="韩国">韩国</option>
+                    <option value="英国">英国</option>
+                    <option value="中国台湾">中国台湾</option>
+                    <option value="法国">法国</option>
+                    <option value="中国">中国</option>
+                    <option value="西班牙">西班牙</option>
+                    <option value="德国">德国</option>
+                    <option value="意大利">意大利</option>
+                    <option value="印度">印度</option>
+                    <option value="香港">香港</option>
+                    <option value="俄罗斯">俄罗斯</option>
+                    <option value="泰国">泰国</option>
+                    <option value="中国内地">中国内地</option>
+                    <option value="澳大利亚">澳大利亚</option>
+                    <option value="加拿大">加拿大</option>
+                    <option value="美国/英国">美国/英国</option>
+                    <option value="法国/比利时">法国/比利时</option>
+                    <option value="台湾">台湾</option>
+                    <option value="英国/美国">英国/美国</option>
+                    <option value="中国香港/中国大陆">中国香港/中国大陆</option>
+                    <option value="挪威">挪威</option>
+                    <option value="法国/德国">法国/德国</option>
+                    <option value="美国/德国">美国/德国</option>
+                    <option value="瑞典">瑞典</option>
+                    <option value="美国/中国大陆">美国/中国大陆</option>
+                    <option value="美国/加拿大">美国/加拿大</option>
+                    <option value="美国/墨西哥">美国/墨西哥</option>
+                    <option value="英国/法国">英国/法国</option>
+                    <option value="中国大陆,香港">中国大陆,香港</option>
+                    <option value="中国大陆/中国香港">中国大陆/中国香港</option>
+                    <option value="中国大陆/香港">中国大陆/香港</option>
+                    <option value="中国香港/台湾">中国香港/台湾</option>
+                    <option value="丹麦">丹麦</option>
+                    <option value="乌克兰">乌克兰</option>
+                    <option value="伊朗">伊朗</option>
+                    <option value="巴西">巴西</option>
+                </select>
+                <select id="pageFilterYear">
+                    <option value="">全部年份</option>
+                    <option value="2030">2030</option>
+                    <option value="2029">2029</option>
+                    <option value="2028">2028</option>
+                    <option value="2027">2027</option>
+                    <option value="2026">2026</option>
+                    <option value="2025">2025</option>
+                    <option value="2024">2024</option>
+                    <option value="2023">2023</option>
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                    <option value="2020">2020</option>
+                    <option value="2019">2019</option>
+                    <option value="2018">2018</option>
+                    <option value="2017">2017</option>
+                    <option value="2016">2016</option>
+                    <option value="2015">2015</option>
+                    <option value="2014">2014</option>
+                    <option value="2013">2013</option>
+                    <option value="2012">2012</option>
+                    <option value="2011">2011</option>
+                    <option value="2010">2010</option>
+                    <option value="2009">2009</option>
+                    <option value="2008">2008</option>
+                    <option value="2007">2007</option>
+                    <option value="2006">2006</option>
+                    <option value="2005">2005</option>
+                    <option value="2004">2004</option>
+                    <option value="2003">2003</option>
+                    <option value="2002">2002</option>
+                    <option value="2001">2001</option>
+                    <option value="2000">2000</option>
+                    <option value="1999">1999</option>
+                    <option value="1998">1998</option>
+                    <option value="1997">1997</option>
+                    <option value="1996">1996</option>
+                    <option value="1995">1995</option>
+                    <option value="1994">1994</option>
+                    <option value="1993">1993</option>
+                    <option value="1992">1992</option>
+                    <option value="1991">1991</option>
+                </select>
+                <a class="filter-link" href="../search.html">高级搜索</a>
+            </section>
+                <div class="movie-grid filterable-grid">
+                <article class="movie-card" data-title="寻找微尘" data-type="电视剧" data-region="中国大陆" data-year="2020" data-genre="剧情,家庭" data-tags="寻亲 温情 社会现实">
+                    <a class="movie-cover" href="../movie/0229.html">
+                        <img src="../79.jpg" alt="寻找微尘" loading="lazy">
+                        <span class="duration">90:45</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0229.html">寻找微尘</a></h3>
+                        <p>为了找到捐骨髓救他的人,自闭症少年踏上了穿越半个中国的旅程。</p>
+                        <div class="movie-meta">
+                            <span>19.1万热度</span>
+                            <span>2020</span>
+                            <span>中国大陆</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="圣诞愿望" data-type="电影" data-region="英国" data-year="2020" data-genre="家庭,奇幻,温情" data-tags="圣诞节 许愿 母女">
+                    <a class="movie-cover" href="../movie/1113.html">
+                        <img src="../63.jpg" alt="圣诞愿望" loading="lazy">
+                        <span class="duration">95:04</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1113.html">圣诞愿望</a></h3>
+                        <p>小女孩向圣诞老人许愿“妈妈别离婚”,第二天醒来发现父母确实没分开,但自己从世界上消失了。</p>
+                        <div class="movie-meta">
+                            <span>19.1万热度</span>
+                            <span>2020</span>
+                            <span>英国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="难得过圣诞" data-type="电影" data-region="美国" data-year="2020" data-genre="喜剧/爱情/家庭" data-tags="圣诞电影 欢喜冤家 家族聚会">
+                    <a class="movie-cover" href="../movie/1657.html">
+                        <img src="../7.jpg" alt="难得过圣诞" loading="lazy">
+                        <span class="duration">90:33</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1657.html">难得过圣诞</a></h3>
+                        <p>为了应付催婚,她雇了一个演员扮男友回家过圣诞,没想到对方竟然真的是她曾经网恋三年的人。</p>
+                        <div class="movie-meta">
+                            <span>18.9万热度</span>
+                            <span>2020</span>
+                            <span>美国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="冰川之血" data-type="电影" data-region="挪威" data-year="2020" data-genre="灾难/惊悚/剧情" data-tags="冰川融化 病毒 生存">
+                    <a class="movie-cover" href="../movie/0052.html">
+                        <img src="../52.jpg" alt="冰川之血" loading="lazy">
+                        <span class="duration">93:56</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0052.html">冰川之血</a></h3>
+                        <p>气候学家在融化的冰川中发现一具万年古尸,伴随尸体释放的,是一种能让人类“结晶化”的远古病毒。</p>
+                        <div class="movie-meta">
+                            <span>18.8万热度</span>
+                            <span>2020</span>
+                            <span>挪威</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="领袖水准" data-type="电影" data-region="美国" data-year="2020" data-genre="动作,科幻" data-tags="时间循环 游戏 硬汉">
+                    <a class="movie-cover" href="../movie/0886.html">
+                        <img src="../136.jpg" alt="领袖水准" loading="lazy">
+                        <span class="duration">84:40</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0886.html">领袖水准</a></h3>
+                        <p>如果每天醒来都是同一天,你会疯掉,还是会成为战神?</p>
+                        <div class="movie-meta">
+                            <span>18.1万热度</span>
+                            <span>2020</span>
+                            <span>美国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="美国夫人" data-type="剧集" data-region="美国" data-year="2020" data-genre="剧情,传记,历史" data-tags="女权 政治 Phyllis Schlafly">
+                    <a class="movie-cover" href="../movie/0784.html">
+                        <img src="../34.jpg" alt="美国夫人" loading="lazy">
+                        <span class="duration">94:39</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0784.html">美国夫人</a></h3>
+                        <p>从保守派活动家菲利斯·施拉夫利的视角,看她如何以一己之力阻挠《平等权利修正案》的通过。</p>
+                        <div class="movie-meta">
+                            <span>18.0万热度</span>
+                            <span>2020</span>
+                            <span>美国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="黑神驹" data-type="电影" data-region="美国" data-year="2020" data-genre="剧情/冒险/家庭" data-tags="骏马 荒野求生 少女成长">
+                    <a class="movie-cover" href="../movie/1380.html">
+                        <img src="../30.jpg" alt="黑神驹" loading="lazy">
+                        <span class="duration">113:24</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1380.html">黑神驹</a></h3>
+                        <p>沉船中幸存的小女孩和一匹黑色野马,必须穿越内华达沙漠才能活命。</p>
+                        <div class="movie-meta">
+                            <span>17.3万热度</span>
+                            <span>2020</span>
+                            <span>美国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="窗户掉下来的那天" data-type="电影" data-region="韩国" data-year="2020" data-genre="剧情/灾难/喜剧" data-tags="黑色幽默 邻里关系 社会压力">
+                    <a class="movie-cover" href="../movie/1923.html">
+                        <img src="../123.jpg" alt="窗户掉下来的那天" loading="lazy">
+                        <span class="duration">114:03</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1923.html">窗户掉下来的那天</a></h3>
+                        <p>一扇窗户从高层公寓掉下砸死了人,整个小区的住户都开始疯抢维修窗户的订单,却没人想找到凶手。</p>
+                        <div class="movie-meta">
+                            <span>16.5万热度</span>
+                            <span>2020</span>
+                            <span>韩国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="双套结杀手" data-type="电影" data-region="美国" data-year="2020" data-genre="惊悚/犯罪/悬疑" data-tags="连环杀手 绳结 帆船圈">
+                    <a class="movie-cover" href="../movie/1296.html">
+                        <img src="../96.jpg" alt="双套结杀手" loading="lazy">
+                        <span class="duration">98:13</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1296.html">双套结杀手</a></h3>
+                        <p>佛罗里达连环杀人案,每名死者脖子上都系着独特的帆船双套结,凶手竟是当地帆船俱乐部最菜的学员。</p>
+                        <div class="movie-meta">
+                            <span>15.4万热度</span>
+                            <span>2020</span>
+                            <span>美国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="倩狐之妖乱青华" data-type="网络电影" data-region="中国大陆" data-year="2020" data-genre="奇幻,古装,爱情" data-tags="狐妖 道士 捉妖">
+                    <a class="movie-cover" href="../movie/0290.html">
+                        <img src="../140.jpg" alt="倩狐之妖乱青华" loading="lazy">
+                        <span class="duration">98:42</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0290.html">倩狐之妖乱青华</a></h3>
+                        <p>捉妖天才误入荒村青华镇,却发现为祸人间的狐妖,正是自己十年前放生的初恋白狐。</p>
+                        <div class="movie-meta">
+                            <span>15.6万热度</span>
+                            <span>2020</span>
+                            <span>中国大陆</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="兴风作浪2" data-type="电影" data-region="中国大陆" data-year="2020" data-genre="喜剧/爱情" data-tags="东北喜剧 夫妻关系 闹剧">
+                    <a class="movie-cover" href="../movie/1256.html">
+                        <img src="../56.jpg" alt="兴风作浪2" loading="lazy">
+                        <span class="duration">106:52</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1256.html">兴风作浪2</a></h3>
+                        <p>一对濒临离婚的夫妻被雷劈后互换身体,为了不丢工作被迫在48小时内学会扮演对方。</p>
+                        <div class="movie-meta">
+                            <span>13.9万热度</span>
+                            <span>2020</span>
+                            <span>中国大陆</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="双重身份" data-type="电影" data-region="中国香港" data-year="2020" data-genre="犯罪悬疑" data-tags="卧底 失忆 警匪">
+                    <a class="movie-cover" href="../movie/1452.html">
+                        <img src="../102.jpg" alt="双重身份" loading="lazy">
+                        <span class="duration">125:53</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1452.html">双重身份</a></h3>
+                        <p>警方卧底醒来后失忆,黑帮却坚称他才是真正的老大,他到底是谁?</p>
+                        <div class="movie-meta">
+                            <span>13.6万热度</span>
+                            <span>2020</span>
+                            <span>中国香港</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="一棵树" data-type="电影" data-region="中国大陆" data-year="2020" data-genre="剧情/家庭" data-tags="亲情 返乡 土地">
+                    <a class="movie-cover" href="../movie/1393.html">
+                        <img src="../43.jpg" alt="一棵树" loading="lazy">
+                        <span class="duration">109:07</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1393.html">一棵树</a></h3>
+                        <p>父亲去世后,城里工作的儿子回村继承一棵古树,却被开发商出价三百万购买。</p>
+                        <div class="movie-meta">
+                            <span>12.9万热度</span>
+                            <span>2020</span>
+                            <span>中国大陆</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="灵性的动物" data-type="电影" data-region="中国台湾" data-year="2020" data-genre="剧情,奇幻,家庭" data-tags="乡土 通灵 人与动物">
+                    <a class="movie-cover" href="../movie/1205.html">
+                        <img src="../5.jpg" alt="灵性的动物" loading="lazy">
+                        <span class="duration">91:45</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1205.html">灵性的动物</a></h3>
+                        <p>相传能通灵的男人回到故乡,协助村民解决被动物亡魂纠缠的事件,却在最后一只白鹭鸶身上看到了死去的女儿。</p>
+                        <div class="movie-meta">
+                            <span>12.9万热度</span>
+                            <span>2020</span>
+                            <span>中国台湾</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="摩天大楼2020" data-type="电影" data-region="中国大陆" data-year="2020" data-genre="灾难,剧情" data-tags="密闭空间 高空营救 社会缩影">
+                    <a class="movie-cover" href="../movie/1916.html">
+                        <img src="../116.jpg" alt="摩天大楼2020" loading="lazy">
+                        <span class="duration">118:44</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1916.html">摩天大楼2020</a></h3>
+                        <p>一栋全智能摩天大楼因病毒封锁,一个恐高的保安必须独自爬上500米高空的外部逃生梯,去修复切断全楼命脉的主控芯片。</p>
+                        <div class="movie-meta">
+                            <span>12.2万热度</span>
+                            <span>2020</span>
+                            <span>中国大陆</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="威乐比这一家" data-type="动画电影" data-region="加拿大/美国" data-year="2020" data-genre="喜剧/冒险/家庭" data-tags="自私父母 孤儿冒险 温暖治愈">
+                    <a class="movie-cover" href="../movie/1732.html">
+                        <img src="../82.jpg" alt="威乐比这一家" loading="lazy">
+                        <span class="duration">82:14</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1732.html">威乐比这一家</a></h3>
+                        <p>威乐比家的父母把孩子“邮寄”出去度假后,四个孩子决定自己寻找“理想父母”。</p>
+                        <div class="movie-meta">
+                            <span>11.9万热度</span>
+                            <span>2020</span>
+                            <span>加拿大/美国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="景深之中" data-type="电影" data-region="中国大陆" data-year="2020" data-genre="剧情/悬疑" data-tags="摄影 小镇疑云 女性视角">
+                    <a class="movie-cover" href="../movie/0746.html">
+                        <img src="../146.jpg" alt="景深之中" loading="lazy">
+                        <span class="duration">96:21</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0746.html">景深之中</a></h3>
+                        <p>一个失明的前摄影师回到小镇,靠耳朵“听”出了一场掩盖了二十年的谋杀案。</p>
+                        <div class="movie-meta">
+                            <span>11.6万热度</span>
+                            <span>2020</span>
+                            <span>中国大陆</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="有女于归" data-type="电影" data-region="中国大陆" data-year="2020" data-genre="剧情,家庭,古装" data-tags="出嫁 传统 女性">
+                    <a class="movie-cover" href="../movie/1719.html">
+                        <img src="../69.jpg" alt="有女于归" loading="lazy">
+                        <span class="duration">104:02</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1719.html">有女于归</a></h3>
+                        <p>明代江南,待嫁绣娘在婚礼前夜发现自己的嫁衣上绣着一个陌生女子的名字。</p>
+                        <div class="movie-meta">
+                            <span>10.8万热度</span>
+                            <span>2020</span>
+                            <span>中国大陆</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="桥头咖啡屋" data-type="剧集" data-region="日本" data-year="2020" data-genre="剧情/治愈/日常" data-tags="单元剧 老桥 咖啡">
+                    <a class="movie-cover" href="../movie/1985.html">
+                        <img src="../35.jpg" alt="桥头咖啡屋" loading="lazy">
+                        <span class="duration">104:25</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1985.html">桥头咖啡屋</a></h3>
+                        <p>横跨老桥的百年咖啡屋迎来新任店主,每杯咖啡都能让客人看到最想见的人。</p>
+                        <div class="movie-meta">
+                            <span>9.8万热度</span>
+                            <span>2020</span>
+                            <span>日本</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="浪漫医生金师傅2" data-type="电视剧" data-region="韩国" data-year="2020" data-genre="医疗/剧情" data-tags="医术 理想主义 创伤">
+                    <a class="movie-cover" href="../movie/0597.html">
+                        <img src="../147.jpg" alt="浪漫医生金师傅2" loading="lazy">
+                        <span class="duration">71:37</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0597.html">浪漫医生金师傅2</a></h3>
+                        <p>在偏远的石垣医院,怪才医生金师傅带领两个充满创伤的年轻医生,用手术刀对抗不公的医疗体系。</p>
+                        <div class="movie-meta">
+                            <span>8.6万热度</span>
+                            <span>2020</span>
+                            <span>韩国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="分家总动员" data-type="电影" data-region="美国" data-year="2020" data-genre="喜剧、剧情、家庭" data-tags="遗产争夺 亲情和解 黑色幽默">
+                    <a class="movie-cover" href="../movie/0947.html">
+                        <img src="../47.jpg" alt="分家总动员" loading="lazy">
+                        <span class="duration">105:42</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0947.html">分家总动员</a></h3>
+                        <p>一个四分五裂的大家庭,为争夺已故父亲的“巨额遗产”,被迫在一座岛上共度三天。</p>
+                        <div class="movie-meta">
+                            <span>7.3万热度</span>
+                            <span>2020</span>
+                            <span>美国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="鹅毛笔" data-type="电影" data-region="英国" data-year="2020" data-genre="悬疑/传记" data-tags="禁书 文学审查 精神病院">
+                    <a class="movie-cover" href="../movie/1178.html">
+                        <img src="../128.jpg" alt="鹅毛笔" loading="lazy">
+                        <span class="duration">116:47</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1178.html">鹅毛笔</a></h3>
+                        <p>被关进疯人院的色情作家,通过牛奶、指甲和床单继续写作,每一篇都精准预言了看守者的死亡。</p>
+                        <div class="movie-meta">
+                            <span>7.4万热度</span>
+                            <span>2020</span>
+                            <span>英国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="致命邻居" data-type="电影" data-region="韩国" data-year="2020" data-genre="悬疑/惊悚" data-tags="偷窥 信任危机 都市病">
+                    <a class="movie-cover" href="../movie/0024.html">
+                        <img src="../24.jpg" alt="致命邻居" loading="lazy">
+                        <span class="duration">110:21</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0024.html">致命邻居</a></h3>
+                        <p>她透过窗户目睹了邻居杀人,但警察赶到时,邻居家根本没有尸体。</p>
+                        <div class="movie-meta">
+                            <span>6.6万热度</span>
+                            <span>2020</span>
+                            <span>韩国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="神农尺" data-type="电影" data-region="中国" data-year="2020" data-genre="古装,奇幻" data-tags="武侠 神器 宿命">
+                    <a class="movie-cover" href="../movie/0823.html">
+                        <img src="../73.jpg" alt="神农尺" loading="lazy">
+                        <span class="duration">94:29</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0823.html">神农尺</a></h3>
+                        <p>传说神农尺能医天下,也能亡天下,少年为救族人踏上了夺尺与毁尺的不归路。</p>
+                        <div class="movie-meta">
+                            <span>6.1万热度</span>
+                            <span>2020</span>
+                            <span>中国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="怒刺" data-type="电影" data-region="法国" data-year="2020" data-genre="犯罪惊悚" data-tags="复仇 监狱风云 女囚">
+                    <a class="movie-cover" href="../movie/0099.html">
+                        <img src="../99.jpg" alt="怒刺" loading="lazy">
+                        <span class="duration">86:10</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0099.html">怒刺</a></h3>
+                        <p>一名柔弱的女会计因冤入狱,却在狱中用一支削尖的牙刷,让整个黑帮闻风丧胆。</p>
+                        <div class="movie-meta">
+                            <span>5.1万热度</span>
+                            <span>2020</span>
+                            <span>法国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="月色真美 短篇集" data-type="电影" data-region="日本" data-year="2020" data-genre="爱情,动画" data-tags="纯爱 番外 青春悸动">
+                    <a class="movie-cover" href="../movie/1306.html">
+                        <img src="../106.jpg" alt="月色真美 短篇集" loading="lazy">
+                        <span class="duration">89:35</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1306.html">月色真美 短篇集</a></h3>
+                        <p>收录了原作动画未播出的三个平行时空故事,关于初恋的遗憾、重逢的喜悦与错过的可能性。</p>
+                        <div class="movie-meta">
+                            <span>3.7万热度</span>
+                            <span>2020</span>
+                            <span>日本</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="谁说我结不了婚" data-type="剧集" data-region="中国大陆" data-year="2020" data-genre="都市,爱情,喜剧" data-tags="大龄单身 女性群像 毒鸡汤">
+                    <a class="movie-cover" href="../movie/1784.html">
+                        <img src="../134.jpg" alt="谁说我结不了婚" loading="lazy">
+                        <span class="duration">70:56</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1784.html">谁说我结不了婚</a></h3>
+                        <p>三个三十多岁的职场女精英立下赌约,看谁先结婚,结果最先领证的竟然是公认的不婚主义者。</p>
+                        <div class="movie-meta">
+                            <span>3.3万热度</span>
+                            <span>2020</span>
+                            <span>中国大陆</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="战争安魂曲" data-type="电影" data-region="英国" data-year="2020" data-genre="战争/历史/音乐" data-tags="一战 交响乐 诗歌">
+                    <a class="movie-cover" href="../movie/0043.html">
+                        <img src="../43.jpg" alt="战争安魂曲" loading="lazy">
+                        <span class="duration">98:16</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0043.html">战争安魂曲</a></h3>
+                        <p>一位战地诗人在索姆河战役中阵亡,他未寄出的家书,百年后被谱成了血色的安魂曲。</p>
+                        <div class="movie-meta">
+                            <span>3.3万热度</span>
+                            <span>2020</span>
+                            <span>英国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="不只是一场比赛" data-type="纪录片" data-region="美国" data-year="2020" data-genre="运动/社会/传记" data-tags="篮球 贫民窟逆袭 种族问题">
+                    <a class="movie-cover" href="../movie/1237.html">
+                        <img src="../37.jpg" alt="不只是一场比赛" loading="lazy">
+                        <span class="duration">97:55</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1237.html">不只是一场比赛</a></h3>
+                        <p>洛杉矶街头一支无名高中篮球队,如何用十五年的时间,改变了五个黑人少年的命运轨迹。</p>
+                        <div class="movie-meta">
+                            <span>3.5万热度</span>
+                            <span>2020</span>
+                            <span>美国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="消失的情人节" data-type="电影" data-region="中国台湾" data-year="2020" data-genre="爱情,奇幻,喜剧" data-tags="时间 快慢 错过">
+                    <a class="movie-cover" href="../movie/0210.html">
+                        <img src="../60.jpg" alt="消失的情人节" loading="lazy">
+                        <span class="duration">95:49</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0210.html">消失的情人节</a></h3>
+                        <p>邮局柜员杨晓淇发现,全世界的所有人都消失了一天,唯独她被留在了那个空白的情人节。</p>
+                        <div class="movie-meta">
+                            <span>3.5万热度</span>
+                            <span>2020</span>
+                            <span>中国台湾</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="痕迹2020" data-type="电视剧" data-region="中国" data-year="2020" data-genre="悬疑,犯罪" data-tags="法医 心理侧写 连环杀人">
+                    <a class="movie-cover" href="../movie/1548.html">
+                        <img src="../48.jpg" alt="痕迹2020" loading="lazy">
+                        <span class="duration">127:59</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1548.html">痕迹2020</a></h3>
+                        <p>疫情后的城市,一个戴着防毒面具的杀手留下了完美的“痕迹”,而追查他的女法医发现,所有证据都指向一个死人。</p>
+                        <div class="movie-meta">
+                            <span>2.9万热度</span>
+                            <span>2020</span>
+                            <span>中国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="失踪人口" data-type="剧集" data-region="美国" data-year="2020" data-genre="科幻/悬疑" data-tags="悬案 平行时空 数字游戏">
+                    <a class="movie-cover" href="../movie/0690.html">
+                        <img src="../90.jpg" alt="失踪人口" loading="lazy">
+                        <span class="duration">86:03</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0690.html">失踪人口</a></h3>
+                        <p>十二个毫无关联的失踪者出现在同一部旧录像带里,而他们自己并不知道被拍下了。</p>
+                        <div class="movie-meta">
+                            <span>2.6万热度</span>
+                            <span>2020</span>
+                            <span>美国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="棕榈泉" data-type="电影" data-region="美国" data-year="2020" data-genre="喜剧、爱情、科幻" data-tags="婚礼 时间循环 虚无主义">
+                    <a class="movie-cover" href="../movie/0458.html">
+                        <img src="../8.jpg" alt="棕榈泉" loading="lazy">
+                        <span class="duration">99:43</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0458.html">棕榈泉</a></h3>
+                        <p>在棕榈泉参加婚礼的伴郎和伴娘被困在了同一天,但他们决定摆烂搞破坏。</p>
+                        <div class="movie-meta">
+                            <span>1.7万热度</span>
+                            <span>2020</span>
+                            <span>美国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="美元本质" data-type="电影" data-region="美国" data-year="2020" data-genre="剧情/犯罪" data-tags="印钞 金融 孤僻天才">
+                    <a class="movie-cover" href="../movie/1879.html">
+                        <img src="../79.jpg" alt="美元本质" loading="lazy">
+                        <span class="duration">123:14</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1879.html">美元本质</a></h3>
+                        <p>一个自闭症印刷工发现美联储的防伪算法存在漏洞,他印出的“真伪钞”连验钞机都分辨不出。</p>
+                        <div class="movie-meta">
+                            <span>1.6万热度</span>
+                            <span>2020</span>
+                            <span>美国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="不良行为第一季" data-type="剧集" data-region="英国" data-year="2020" data-genre="剧情/校园" data-tags="寄宿学校 社会阶层 反抗">
+                    <a class="movie-cover" href="../movie/1410.html">
+                        <img src="../60.jpg" alt="不良行为第一季" loading="lazy">
+                        <span class="duration">113:48</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1410.html">不良行为第一季</a></h3>
+                        <p>全英最顶级寄宿学校内,五个拿奖学金的贫困生秘密组成了一个“搞垮贵族”的地下组织。</p>
+                        <div class="movie-meta">
+                            <span>1.2万热度</span>
+                            <span>2020</span>
+                            <span>英国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="扰乱治安" data-type="电影" data-region="美国/加拿大" data-year="2020" data-genre="动作/战争/剧情" data-tags="边境 民兵 退伍军人">
+                    <a class="movie-cover" href="../movie/1722.html">
+                        <img src="../72.jpg" alt="扰乱治安" loading="lazy">
+                        <span class="duration">111:39</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1722.html">扰乱治安</a></h3>
+                        <p>一个失去妻女的退伍狙击手隐居在边境森林,直到一群私刑民兵闯入他的领地,他必须保卫唯一的家园。</p>
+                        <div class="movie-meta">
+                            <span>1.1万热度</span>
+                            <span>2020</span>
+                            <span>美国/加拿大</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="影子恋人" data-type="剧集" data-region="泰国" data-year="2020" data-genre="爱情虐恋" data-tags="双胞胎替身 豪门恩怨 禁忌之恋">
+                    <a class="movie-cover" href="../movie/0148.html">
+                        <img src="../148.jpg" alt="影子恋人" loading="lazy">
+                        <span class="duration">105:22</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0148.html">影子恋人</a></h3>
+                        <p>为了姐姐,她整容成她的样子嫁给仇人,却发现自己爱上了这个“杀姐凶手”。</p>
+                        <div class="movie-meta">
+                            <span>1.0万热度</span>
+                            <span>2020</span>
+                            <span>泰国</span>
+                        </div>
+                    </div>
+                </article>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <section>
+                <a class="footer-brand" href="../index.html">
+                    <span class="brand-mark">▶</span>
+                    <span>日韩热门影片</span>
+                </a>
+                <p>精选站内热门影片、剧集与片单内容，按题材、地区、年份与热度组织，方便快速发现想看的作品。</p>
+            </section>
+            <section>
+                <h2>快速导航</h2>
+                <a href="../categories.html">分类浏览</a>
+                <a href="../ranking.html">热度排行</a>
+                <a href="../movies/page-1.html">全部片库</a>
+                <a href="../search.html">搜索筛选</a>
+            </section>
+            <section>
+                <h2>内容入口</h2>
+                <a href="../category/main-001.html">日韩爱情</a>
+                <a href="../category/main-002.html">日韩悬疑</a>
+                <a href="../category/main-003.html">日韩古装</a>
+                <a href="../category/main-004.html">日韩动画</a>
+            </section>
+            <section>
+                <h2>站点服务</h2>
+                <a href="../about.html">关于本站</a>
+                <a href="../support.html">观看指南</a>
+                <a href="../copyright.html">版权声明</a>
+            </section>
+        </div>
+        <div class="container footer-bottom">
+            <p>© 2026 日韩热门影片. 持续整理站内热门片单与播放入口。</p>
+        </div>
+    </footer>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

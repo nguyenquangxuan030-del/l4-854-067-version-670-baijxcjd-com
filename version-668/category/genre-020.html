@@ -1,0 +1,856 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>音乐题材-日韩热门影片-热门影片片库-热门影片在线点播</title>
+    <meta name="description" content="日韩热门影片音乐题材栏目，收录 39 部相关影片。">
+    <meta name="keywords" content="音乐题材,日韩热门影片,热门影片片库,日韩影片,影片点播,热门电影,精选日韩影片,影片合集">
+    <meta name="applicable-device" content="pc,mobile">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="../assets/site.css">
+
+    <script src="../assets/site.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-bar">
+            <a class="brand" href="../index.html" aria-label="日韩热门影片首页">
+                <span class="brand-mark">▶</span>
+                <span>日韩热门影片</span>
+            </a>
+            <nav class="desktop-nav" aria-label="主导航">
+                <a href="../index.html">首页</a>
+                <a href="../categories.html">分类</a>
+                <a href="../ranking.html">排行榜</a>
+                <a href="../movies/page-1.html">片库</a>
+                <a href="../search.html">搜索</a>
+            </nav>
+            <form class="header-search search-form" action="../search.html" method="get">
+                <input type="search" name="q" placeholder="搜索影片、题材、地区" autocomplete="off">
+                <button type="submit">搜索</button>
+            </form>
+            <button class="mobile-toggle" type="button" aria-label="展开导航" aria-expanded="false">☰</button>
+        </div>
+        <div class="mobile-menu" hidden>
+            <form class="mobile-search search-form" action="../search.html" method="get">
+                <input type="search" name="q" placeholder="搜索影片、题材、地区" autocomplete="off">
+                <button type="submit">搜索</button>
+            </form>
+            <a href="../index.html">首页</a>
+            <a href="../categories.html">分类</a>
+            <a href="../ranking.html">排行榜</a>
+            <a href="../movies/page-1.html">片库</a>
+            <a href="../search.html">搜索</a>
+        </div>
+    </header>
+    <main>
+        <section class="page-hero compact-hero">
+            <div class="container">
+                <span class="section-kicker">Movie List</span>
+                <h1>音乐题材</h1>
+                <p>当前栏目共 39 部影片，支持当前页关键词和条件筛选。</p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+            <section class="filter-panel" aria-label="筛选影片">
+                <input id="pageFilterKeyword" type="search" placeholder="在当前页面筛选片名、简介、题材">
+                <select id="pageFilterType">
+                    <option value="">全部类型</option>
+                    <option value="电影">电影</option>
+                    <option value="剧集">剧集</option>
+                    <option value="电视剧">电视剧</option>
+                    <option value="动画电影">动画电影</option>
+                    <option value="动画剧集">动画剧集</option>
+                    <option value="综艺">综艺</option>
+                    <option value="动画">动画</option>
+                    <option value="网络剧">网络剧</option>
+                    <option value="网络电影">网络电影</option>
+                    <option value="纪录片">纪录片</option>
+                    <option value="动漫">动漫</option>
+                    <option value="TV Series">TV Series</option>
+                    <option value="TV 剧集">TV 剧集</option>
+                    <option value="动画短片">动画短片</option>
+                    <option value="电影/动画">电影/动画</option>
+                    <option value="电影/纪录片">电影/纪录片</option>
+                    <option value="纪录片剧集">纪录片剧集</option>
+                    <option value="TV">TV</option>
+                    <option value="TV 动画">TV 动画</option>
+                    <option value="TV动画">TV动画</option>
+                    <option value="剧情/农村">剧情/农村</option>
+                    <option value="剧情/喜剧">剧情/喜剧</option>
+                    <option value="剧集,动画">剧集,动画</option>
+                    <option value="剧集/动画">剧集/动画</option>
+                    <option value="剧集/短剧">剧集/短剧</option>
+                    <option value="剧集/综艺">剧集/综艺</option>
+                    <option value="动画 动画/校园">动画 动画/校园</option>
+                    <option value="电影 (动画)">电影 (动画)</option>
+                    <option value="电影 纪录片">电影 纪录片</option>
+                    <option value="电影,动画">电影,动画</option>
+                </select>
+                <select id="pageFilterRegion">
+                    <option value="">全部地区</option>
+                    <option value="中国大陆">中国大陆</option>
+                    <option value="美国">美国</option>
+                    <option value="日本">日本</option>
+                    <option value="中国香港">中国香港</option>
+                    <option value="韩国">韩国</option>
+                    <option value="英国">英国</option>
+                    <option value="中国台湾">中国台湾</option>
+                    <option value="法国">法国</option>
+                    <option value="中国">中国</option>
+                    <option value="西班牙">西班牙</option>
+                    <option value="德国">德国</option>
+                    <option value="意大利">意大利</option>
+                    <option value="印度">印度</option>
+                    <option value="香港">香港</option>
+                    <option value="俄罗斯">俄罗斯</option>
+                    <option value="泰国">泰国</option>
+                    <option value="中国内地">中国内地</option>
+                    <option value="澳大利亚">澳大利亚</option>
+                    <option value="加拿大">加拿大</option>
+                    <option value="美国/英国">美国/英国</option>
+                    <option value="法国/比利时">法国/比利时</option>
+                    <option value="台湾">台湾</option>
+                    <option value="英国/美国">英国/美国</option>
+                    <option value="中国香港/中国大陆">中国香港/中国大陆</option>
+                    <option value="挪威">挪威</option>
+                    <option value="法国/德国">法国/德国</option>
+                    <option value="美国/德国">美国/德国</option>
+                    <option value="瑞典">瑞典</option>
+                    <option value="美国/中国大陆">美国/中国大陆</option>
+                    <option value="美国/加拿大">美国/加拿大</option>
+                    <option value="美国/墨西哥">美国/墨西哥</option>
+                    <option value="英国/法国">英国/法国</option>
+                    <option value="中国大陆,香港">中国大陆,香港</option>
+                    <option value="中国大陆/中国香港">中国大陆/中国香港</option>
+                    <option value="中国大陆/香港">中国大陆/香港</option>
+                    <option value="中国香港/台湾">中国香港/台湾</option>
+                    <option value="丹麦">丹麦</option>
+                    <option value="乌克兰">乌克兰</option>
+                    <option value="伊朗">伊朗</option>
+                    <option value="巴西">巴西</option>
+                </select>
+                <select id="pageFilterYear">
+                    <option value="">全部年份</option>
+                    <option value="2030">2030</option>
+                    <option value="2029">2029</option>
+                    <option value="2028">2028</option>
+                    <option value="2027">2027</option>
+                    <option value="2026">2026</option>
+                    <option value="2025">2025</option>
+                    <option value="2024">2024</option>
+                    <option value="2023">2023</option>
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                    <option value="2020">2020</option>
+                    <option value="2019">2019</option>
+                    <option value="2018">2018</option>
+                    <option value="2017">2017</option>
+                    <option value="2016">2016</option>
+                    <option value="2015">2015</option>
+                    <option value="2014">2014</option>
+                    <option value="2013">2013</option>
+                    <option value="2012">2012</option>
+                    <option value="2011">2011</option>
+                    <option value="2010">2010</option>
+                    <option value="2009">2009</option>
+                    <option value="2008">2008</option>
+                    <option value="2007">2007</option>
+                    <option value="2006">2006</option>
+                    <option value="2005">2005</option>
+                    <option value="2004">2004</option>
+                    <option value="2003">2003</option>
+                    <option value="2002">2002</option>
+                    <option value="2001">2001</option>
+                    <option value="2000">2000</option>
+                    <option value="1999">1999</option>
+                    <option value="1998">1998</option>
+                    <option value="1997">1997</option>
+                    <option value="1996">1996</option>
+                    <option value="1995">1995</option>
+                    <option value="1994">1994</option>
+                    <option value="1993">1993</option>
+                    <option value="1992">1992</option>
+                    <option value="1991">1991</option>
+                </select>
+                <a class="filter-link" href="../search.html">高级搜索</a>
+            </section>
+                <div class="movie-grid filterable-grid">
+                <article class="movie-card" data-title="有你真好·温暖演唱会" data-type="综艺/特别篇" data-region="中国大陆" data-year="2024" data-genre="音乐/真人秀" data-tags="怀旧金曲 素人故事 催泪">
+                    <a class="movie-cover" href="../movie/1694.html">
+                        <img src="../44.jpg" alt="有你真好·温暖演唱会" loading="lazy">
+                        <span class="duration">120:26</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1694.html">有你真好·温暖演唱会</a></h3>
+                        <p>一场不售票的演唱会,歌手只听素人讲故事,再把故事即兴唱成歌。</p>
+                        <div class="movie-meta">
+                            <span>19.6万热度</span>
+                            <span>2024</span>
+                            <span>中国大陆</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="比尔·希克斯的故事" data-type="电影" data-region="美国" data-year="2024" data-genre="传记,音乐,剧情" data-tags="脱口秀 喜剧演员 悲剧">
+                    <a class="movie-cover" href="../movie/0156.html">
+                        <img src="../6.jpg" alt="比尔·希克斯的故事" loading="lazy">
+                        <span class="duration">73:16</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0156.html">比尔·希克斯的故事</a></h3>
+                        <p>史上最伟大的脱口秀演员比尔·希克斯,在胰腺癌晚期用最后一场演出,完成了对虚伪美国最犀利的嘲讽与最深情的告别。</p>
+                        <div class="movie-meta">
+                            <span>19.2万热度</span>
+                            <span>2024</span>
+                            <span>美国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="英伦琵琶" data-type="电影" data-region="英国/中国香港" data-year="2025" data-genre="动作,音乐,犯罪" data-tags="中西结合 乐手特工 古典乐">
+                    <a class="movie-cover" href="../movie/0555.html">
+                        <img src="../105.jpg" alt="英伦琵琶" loading="lazy">
+                        <span class="duration">104:50</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0555.html">英伦琵琶</a></h3>
+                        <p>一个被开除的皇家音乐学院华裔高材生,为了保护一把价值连城的大提琴,被迫与伦敦黑帮展开了一场以乐谱为密码的智力游戏。</p>
+                        <div class="movie-meta">
+                            <span>18.7万热度</span>
+                            <span>2025</span>
+                            <span>英国/中国香港</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="八重子的低音" data-type="电影" data-region="日本" data-year="2024" data-genre="剧情、音乐、家庭" data-tags="音乐治愈 母女关系 低音提琴">
+                    <a class="movie-cover" href="../movie/0514.html">
+                        <img src="../64.jpg" alt="八重子的低音" loading="lazy">
+                        <span class="duration">124:11</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0514.html">八重子的低音</a></h3>
+                        <p>一个失智的母亲只会哼一首不成调的低音旋律,女儿花了十年才找到那首歌背后的真相。</p>
+                        <div class="movie-meta">
+                            <span>18.6万热度</span>
+                            <span>2024</span>
+                            <span>日本</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="爱乐风雨情国语" data-type="电影" data-region="中国大陆" data-year="2024" data-genre="音乐,爱情" data-tags="交响乐 聋人 逆袭">
+                    <a class="movie-cover" href="../movie/0676.html">
+                        <img src="../76.jpg" alt="爱乐风雨情国语" loading="lazy">
+                        <span class="duration">77:35</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0676.html">爱乐风雨情国语</a></h3>
+                        <p>失聪的小提琴手与叛逆的钢琴天才组建业余乐团,用音乐对抗各自的“无声世界”。</p>
+                        <div class="movie-meta">
+                            <span>18.5万热度</span>
+                            <span>2024</span>
+                            <span>中国大陆</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="中国好声音2019" data-type="综艺" data-region="中国大陆" data-year="2019" data-genre="音乐,真人秀" data-tags="导师 选秀 翻唱">
+                    <a class="movie-cover" href="../movie/1081.html">
+                        <img src="../31.jpg" alt="中国好声音2019" loading="lazy">
+                        <span class="duration">101:59</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1081.html">中国好声音2019</a></h3>
+                        <p>本季最特殊的一位学员,是AI虚拟歌手,她的演唱让四位导师都转身了,但没人知道她不是人。</p>
+                        <div class="movie-meta">
+                            <span>18.7万热度</span>
+                            <span>2019</span>
+                            <span>中国大陆</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="小鼓大戏" data-type="剧集" data-region="中国大陆" data-year="2024" data-genre="剧情/音乐" data-tags="民间鼓乐 非遗传承 新旧冲突">
+                    <a class="movie-cover" href="../movie/1472.html">
+                        <img src="../122.jpg" alt="小鼓大戏" loading="lazy">
+                        <span class="duration">98:24</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1472.html">小鼓大戏</a></h3>
+                        <p>一个快倒闭的民间鼓乐团,被一个海归音乐总监用“摇滚+唢呐”的方式救活了,却惹怒了全村老人。</p>
+                        <div class="movie-meta">
+                            <span>17.5万热度</span>
+                            <span>2024</span>
+                            <span>中国大陆</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="摇摆吉普赛" data-type="电影" data-region="法国" data-year="2023" data-genre="音乐、爱情、剧情" data-tags="吉普赛 爵士 家族">
+                    <a class="movie-cover" href="../movie/1623.html">
+                        <img src="../123.jpg" alt="摇摆吉普赛" loading="lazy">
+                        <span class="duration">127:45</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1623.html">摇摆吉普赛</a></h3>
+                        <p>一位古典小提琴天才被吉普赛爵士乐吸引,闯入一个流浪家族的秘密世界,引发音乐与灵魂的共振。</p>
+                        <div class="movie-meta">
+                            <span>17.6万热度</span>
+                            <span>2023</span>
+                            <span>法国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="阿里与艾娃" data-type="电影" data-region="英国" data-year="2022" data-genre="爱情/音乐" data-tags="移民 忘年恋 民谣">
+                    <a class="movie-cover" href="../movie/0158.html">
+                        <img src="../8.jpg" alt="阿里与艾娃" loading="lazy">
+                        <span class="duration">114:52</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0158.html">阿里与艾娃</a></h3>
+                        <p>巴基斯坦裔乐手与爱尔兰单亲妈妈,用民谣对抗两个世界的偏见。</p>
+                        <div class="movie-meta">
+                            <span>16.8万热度</span>
+                            <span>2022</span>
+                            <span>英国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="复出演唱!" data-type="电影" data-region="日本" data-year="2025" data-genre="音乐,喜剧,励志" data-tags="偶像 废校 中年危机">
+                    <a class="movie-cover" href="../movie/0603.html">
+                        <img src="../3.jpg" alt="复出演唱!" loading="lazy">
+                        <span class="duration">86:31</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0603.html">复出演唱!</a></h3>
+                        <p>五个四十岁的大叔为了拯救即将倒闭的母校,重组了当年只红过一首歌的垃圾摇滚乐队。</p>
+                        <div class="movie-meta">
+                            <span>14.9万热度</span>
+                            <span>2025</span>
+                            <span>日本</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="钢琴家" data-type="电影" data-region="波兰/英国" data-year="2025" data-genre="剧情/音乐" data-tags="二战 艺术 生存">
+                    <a class="movie-cover" href="../movie/0740.html">
+                        <img src="../140.jpg" alt="钢琴家" loading="lazy">
+                        <span class="duration">88:02</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0740.html">钢琴家</a></h3>
+                        <p>华沙沦陷后,犹太钢琴家用肖邦的琴声在废墟中救了整整一个连的德军士兵。</p>
+                        <div class="movie-meta">
+                            <span>15.0万热度</span>
+                            <span>2025</span>
+                            <span>波兰/英国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="黑人教父" data-type="电影" data-region="美国" data-year="2025" data-genre="剧情/音乐" data-tags="灵魂乐 教堂 黑帮">
+                    <a class="movie-cover" href="../movie/0097.html">
+                        <img src="../97.jpg" alt="黑人教父" loading="lazy">
+                        <span class="duration">95:11</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0097.html">黑人教父</a></h3>
+                        <p>芝加哥一名黑帮打手为躲避追杀假扮教堂唱诗班指挥,却意外被音乐唤醒了良知。</p>
+                        <div class="movie-meta">
+                            <span>14.4万热度</span>
+                            <span>2025</span>
+                            <span>美国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="全国歌唱比赛" data-type="电影" data-region="中国大陆" data-year="2025" data-genre="音乐/剧情/家庭" data-tags="素人逆袭 乡村教师 母女和解">
+                    <a class="movie-cover" href="../movie/0034.html">
+                        <img src="../34.jpg" alt="全国歌唱比赛" loading="lazy">
+                        <span class="duration">100:55</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0034.html">全国歌唱比赛</a></h3>
+                        <p>一个五音不全的乡村女教师被学生报名参赛,却意外掀翻了整个乐坛的假唱黑幕。</p>
+                        <div class="movie-meta">
+                            <span>14.3万热度</span>
+                            <span>2025</span>
+                            <span>中国大陆</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="一曲相思情未了" data-type="电影" data-region="中国香港" data-year="1989" data-genre="爱情/音乐" data-tags="红颜薄命 作曲家 绝唱">
+                    <a class="movie-cover" href="../movie/0491.html">
+                        <img src="../41.jpg" alt="一曲相思情未了" loading="lazy">
+                        <span class="duration">114:04</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0491.html">一曲相思情未了</a></h3>
+                        <p>他是无人问津的作曲人,她是夜总会的最后一位歌女,一首未完成的歌成了绝唱。</p>
+                        <div class="movie-meta">
+                            <span>17.9万热度</span>
+                            <span>1989</span>
+                            <span>中国香港</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="摇摆女孩" data-type="电影" data-region="日本" data-year="2024" data-genre="音乐、喜剧、励志" data-tags="爵士乐 少女 草台班子">
+                    <a class="movie-cover" href="../movie/0408.html">
+                        <img src="../108.jpg" alt="摇摆女孩" loading="lazy">
+                        <span class="duration">83:38</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0408.html">摇摆女孩</a></h3>
+                        <p>一所乡下高中的差生班为了凑学分,组了个爵士乐队,结果误打误撞要参加全国大赛。</p>
+                        <div class="movie-meta">
+                            <span>13.5万热度</span>
+                            <span>2024</span>
+                            <span>日本</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="高音" data-type="电影" data-region="美国" data-year="2024" data-genre="音乐/剧情/传记" data-tags="歌剧 天赋 家庭">
+                    <a class="movie-cover" href="../movie/1169.html">
+                        <img src="../119.jpg" alt="高音" loading="lazy">
+                        <span class="duration">105:23</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1169.html">高音</a></h3>
+                        <p>拥有五个八度音域的天才少年,代价是他的母亲正在被他唱歌时的声波杀死。</p>
+                        <div class="movie-meta">
+                            <span>13.4万热度</span>
+                            <span>2024</span>
+                            <span>美国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="一曲倾情" data-type="电影" data-region="美国" data-year="2021" data-genre="剧情/音乐/爱情" data-tags="钢琴家 街头艺人 命运交响曲">
+                    <a class="movie-cover" href="../movie/0139.html">
+                        <img src="../139.jpg" alt="一曲倾情" loading="lazy">
+                        <span class="duration">108:43</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0139.html">一曲倾情</a></h3>
+                        <p>落魄钢琴家与失声歌剧院女高音,在午夜地铁站用一首未完成的曲子交换了彼此破碎的人生。</p>
+                        <div class="movie-meta">
+                            <span>14.2万热度</span>
+                            <span>2021</span>
+                            <span>美国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="舞动全城粤语" data-type="剧集" data-region="中国香港" data-year="2024" data-genre="剧情,音乐,家庭" data-tags="街舞 粤语 梦想">
+                    <a class="movie-cover" href="../movie/1520.html">
+                        <img src="../20.jpg" alt="舞动全城粤语" loading="lazy">
+                        <span class="duration">77:23</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1520.html">舞动全城粤语</a></h3>
+                        <p>一位跳Breaking的香港少年,为了给瘫痪的父亲凑医药费,不得不去广场上教大妈们跳街舞。</p>
+                        <div class="movie-meta">
+                            <span>12.4万热度</span>
+                            <span>2024</span>
+                            <span>中国香港</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="我们队伍向太阳" data-type="电视剧" data-region="中国大陆" data-year="2022" data-genre="历史/战争/音乐" data-tags="军旅 文工团 长征">
+                    <a class="movie-cover" href="../movie/1204.html">
+                        <img src="../4.jpg" alt="我们队伍向太阳" loading="lazy">
+                        <span class="duration">87:07</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1204.html">我们队伍向太阳</a></h3>
+                        <p>一支红军文工团在长征路上,用歌声和戏剧掩护主力部队转移,最后全团只剩下三人的故事。</p>
+                        <div class="movie-meta">
+                            <span>12.1万热度</span>
+                            <span>2022</span>
+                            <span>中国大陆</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="顽皮豹风笛手" data-type="动画电影" data-region="英国/法国" data-year="2026" data-genre="喜剧/音乐/家庭" data-tags="动物主角 苏格兰风情 破案喜剧">
+                    <a class="movie-cover" href="../movie/0960.html">
+                        <img src="../60.jpg" alt="顽皮豹风笛手" loading="lazy">
+                        <span class="duration">75:44</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0960.html">顽皮豹风笛手</a></h3>
+                        <p>一只粉色的豹子学会了吹风笛,然后整个小镇的老鼠都开始跳舞。</p>
+                        <div class="movie-meta">
+                            <span>11.0万热度</span>
+                            <span>2026</span>
+                            <span>英国/法国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="富士见二丁目交响乐团" data-type="剧集" data-region="日本" data-year="2027" data-genre="音乐,剧情" data-tags="古典乐 业余乐团 社区羁绊">
+                    <a class="movie-cover" href="../movie/0787.html">
+                        <img src="../37.jpg" alt="富士见二丁目交响乐团" loading="lazy">
+                        <span class="duration">107:43</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0787.html">富士见二丁目交响乐团</a></h3>
+                        <p>东京郊区一个平均年龄63岁的业余交响乐团面临解散危机,新来的23岁指挥天才说:你们不是在演奏,是在为自己的人生收尸。</p>
+                        <div class="movie-meta">
+                            <span>9.5万热度</span>
+                            <span>2027</span>
+                            <span>日本</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="卡车司机之歌" data-type="电影" data-region="瑞典" data-year="2022" data-genre="音乐,公路,剧情" data-tags="北欧 孤独 长夜">
+                    <a class="movie-cover" href="../movie/1456.html">
+                        <img src="../106.jpg" alt="卡车司机之歌" loading="lazy">
+                        <span class="duration">95:42</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1456.html">卡车司机之歌</a></h3>
+                        <p>一名穿梭在北极圈公路的孤独女卡车司机,通过CB电台与陌生男司机对唱,治愈了彼此的创伤。</p>
+                        <div class="movie-meta">
+                            <span>10.6万热度</span>
+                            <span>2022</span>
+                            <span>瑞典</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="风继续吹" data-type="电影" data-region="华语" data-year="2025" data-genre="剧情,音乐,传记" data-tags="致敬张国荣 粉丝故事 时代记忆">
+                    <a class="movie-cover" href="../movie/0005.html">
+                        <img src="../5.jpg" alt="风继续吹" loading="lazy">
+                        <span class="duration">115:07</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0005.html">风继续吹</a></h3>
+                        <p>一个普通荣迷从2003年至今的二十年人生,被张国荣的音乐和电影串联成一篇深情的告白。</p>
+                        <div class="movie-meta">
+                            <span>9.3万热度</span>
+                            <span>2025</span>
+                            <span>华语</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="史普林斯汀:走出虚无" data-type="电影" data-region="美国" data-year="2025" data-genre="传记,音乐" data-tags="摇滚 中年 创作">
+                    <a class="movie-cover" href="../movie/0713.html">
+                        <img src="../113.jpg" alt="史普林斯汀:走出虚无" loading="lazy">
+                        <span class="duration">127:01</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0713.html">史普林斯汀:走出虚无</a></h3>
+                        <p>70岁的布鲁斯·斯普林斯汀在退休前最后一次巡演途中,与自己的鬼魂对话。</p>
+                        <div class="movie-meta">
+                            <span>8.5万热度</span>
+                            <span>2025</span>
+                            <span>美国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="未来天后" data-type="电影" data-region="中国香港" data-year="2028" data-genre="音乐,剧情,歌舞" data-tags="选秀 女团 人工智能">
+                    <a class="movie-cover" href="../movie/1798.html">
+                        <img src="../148.jpg" alt="未来天后" loading="lazy">
+                        <span class="duration">98:31</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1798.html">未来天后</a></h3>
+                        <p>2046年,AI制作的虚拟偶像横扫乐坛,一个破音女孩却靠“不完美”杀出重围。</p>
+                        <div class="movie-meta">
+                            <span>6.1万热度</span>
+                            <span>2028</span>
+                            <span>中国香港</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="名扬四海" data-type="电视剧" data-region="中国大陆" data-year="2026" data-genre="剧情/音乐" data-tags="选秀 造星 资本博弈">
+                    <a class="movie-cover" href="../movie/1704.html">
+                        <img src="../54.jpg" alt="名扬四海" loading="lazy">
+                        <span class="duration">113:12</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1704.html">名扬四海</a></h3>
+                        <p>十年前一场选秀节目的冠亚季军,十年后一个疯了,一个瘸了,一个在工地上搬砖。</p>
+                        <div class="movie-meta">
+                            <span>6.4万热度</span>
+                            <span>2026</span>
+                            <span>中国大陆</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="摇滚城市底特律" data-type="电影" data-region="美国" data-year="1999" data-genre="喜剧、音乐、公路" data-tags="摇滚 荒诞 粉丝">
+                    <a class="movie-cover" href="../movie/0814.html">
+                        <img src="../64.jpg" alt="摇滚城市底特律" loading="lazy">
+                        <span class="duration">113:44</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0814.html">摇滚城市底特律</a></h3>
+                        <p>四个超级摇滚乐迷为了阻止一场阴谋,假冒著名乐队前往底特律,结果真乐队也来了。</p>
+                        <div class="movie-meta">
+                            <span>9.8万热度</span>
+                            <span>1999</span>
+                            <span>美国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="灵魂男孩" data-type="电影" data-region="美国" data-year="2024" data-genre="奇幻/音乐" data-tags="灵魂互换 高中生 摇滚乐队">
+                    <a class="movie-cover" href="../movie/0394.html">
+                        <img src="../94.jpg" alt="灵魂男孩" loading="lazy">
+                        <span class="duration">113:14</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0394.html">灵魂男孩</a></h3>
+                        <p>一个白人男孩的灵魂阴差阳错进入黑人老灵魂乐手的身体,距离演出只剩72小时。</p>
+                        <div class="movie-meta">
+                            <span>6.4万热度</span>
+                            <span>2024</span>
+                            <span>美国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="潦倒岁月" data-type="电影" data-region="美国" data-year="2018" data-genre="剧情/音乐" data-tags="乡村歌手 过气 公路巡演">
+                    <a class="movie-cover" href="../movie/1943.html">
+                        <img src="../143.jpg" alt="潦倒岁月" loading="lazy">
+                        <span class="duration">117:35</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1943.html">潦倒岁月</a></h3>
+                        <p>过气乡村歌手被迫跑遍南方破旧酒吧还债,却发现每场台下坐着的都是他年轻时伤害过的人。</p>
+                        <div class="movie-meta">
+                            <span>6.5万热度</span>
+                            <span>2018</span>
+                            <span>美国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="蕾哈娜内衣秀" data-type="电影/纪录片" data-region="美国" data-year="2023" data-genre="音乐,时尚" data-tags="蕾哈娜 内衣品牌 时尚帝国">
+                    <a class="movie-cover" href="../movie/1347.html">
+                        <img src="../147.jpg" alt="蕾哈娜内衣秀" loading="lazy">
+                        <span class="duration">76:20</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1347.html">蕾哈娜内衣秀</a></h3>
+                        <p>纪录片镜头深入Savage x Fenty幕后,见证蕾哈娜如何从一个歌手转型为颠覆行业的时尚大亨。</p>
+                        <div class="movie-meta">
+                            <span>5.7万热度</span>
+                            <span>2023</span>
+                            <span>美国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="闪亮女声" data-type="电影" data-region="美国" data-year="2025" data-genre="音乐,剧情,传记" data-tags="女子组合 六十年代 种族歧视">
+                    <a class="movie-cover" href="../movie/1887.html">
+                        <img src="../87.jpg" alt="闪亮女声" loading="lazy">
+                        <span class="duration">94:41</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1887.html">闪亮女声</a></h3>
+                        <p>六十年代,三个来自黑人贫民区的女孩组成合唱团,用歌声打破种族隔阂,唱入白宫。</p>
+                        <div class="movie-meta">
+                            <span>3.8万热度</span>
+                            <span>2025</span>
+                            <span>美国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="战争安魂曲" data-type="电影" data-region="英国" data-year="2020" data-genre="战争/历史/音乐" data-tags="一战 交响乐 诗歌">
+                    <a class="movie-cover" href="../movie/0043.html">
+                        <img src="../43.jpg" alt="战争安魂曲" loading="lazy">
+                        <span class="duration">98:16</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0043.html">战争安魂曲</a></h3>
+                        <p>一位战地诗人在索姆河战役中阵亡,他未寄出的家书,百年后被谱成了血色的安魂曲。</p>
+                        <div class="movie-meta">
+                            <span>3.3万热度</span>
+                            <span>2020</span>
+                            <span>英国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="再见维也纳" data-type="电影" data-region="奥地利、德国" data-year="2025" data-genre="爱情、音乐、剧情" data-tags="跨国恋 古典音乐 战后创伤">
+                    <a class="movie-cover" href="../movie/0375.html">
+                        <img src="../75.jpg" alt="再见维也纳" loading="lazy">
+                        <span class="duration">114:45</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0375.html">再见维也纳</a></h3>
+                        <p>八十岁的中国钢琴家带着初恋的骨灰回到维也纳,要在金色大厅为他演奏一首当年没能一起听的《蓝色多瑙河》。</p>
+                        <div class="movie-meta">
+                            <span>2.3万热度</span>
+                            <span>2025</span>
+                            <span>奥地利、德国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="叛逆浮生" data-type="电影" data-region="英国" data-year="2024" data-genre="剧情,音乐" data-tags="朋克 养老院 代际冲突">
+                    <a class="movie-cover" href="../movie/1287.html">
+                        <img src="../87.jpg" alt="叛逆浮生" loading="lazy">
+                        <span class="duration">104:26</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1287.html">叛逆浮生</a></h3>
+                        <p>一个被送去养老院做义工的朋克少女,带领一群老人组成了史上最高龄的朋克乐队,向无聊的世界宣战。</p>
+                        <div class="movie-meta">
+                            <span>2.0万热度</span>
+                            <span>2024</span>
+                            <span>英国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="坂本龙一:终曲" data-type="电影" data-region="日本" data-year="2024" data-genre="纪录片,音乐" data-tags="传记 艺术 绝唱">
+                    <a class="movie-cover" href="../movie/0497.html">
+                        <img src="../47.jpg" alt="坂本龙一:终曲" loading="lazy">
+                        <span class="duration">119:55</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0497.html">坂本龙一:终曲</a></h3>
+                        <p>记录了音乐大师坂本龙一生命最后三年与癌症共存,并如何创作出“人生终曲”的私密影像。</p>
+                        <div class="movie-meta">
+                            <span>1.3万热度</span>
+                            <span>2024</span>
+                            <span>日本</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="法国小调" data-type="电影" data-region="法国" data-year="2023" data-genre="喜剧,音乐" data-tags="合唱团 罢工 幽默">
+                    <a class="movie-cover" href="../movie/1341.html">
+                        <img src="../141.jpg" alt="法国小调" loading="lazy">
+                        <span class="duration">103:17</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1341.html">法国小调</a></h3>
+                        <p>一个巴黎地铁站的清洁工,组织流浪歌手和被裁员的同事组成了“反噪音合唱团”,歌声震撼了整个法国。</p>
+                        <div class="movie-meta">
+                            <span>1.5万热度</span>
+                            <span>2023</span>
+                            <span>法国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="毛骨悚然的帕格尼尼" data-type="电影" data-region="德国" data-year="2013" data-genre="恐怖,音乐" data-tags="小提琴 魔鬼交易 诅咒">
+                    <a class="movie-cover" href="../movie/1832.html">
+                        <img src="../32.jpg" alt="毛骨悚然的帕格尼尼" loading="lazy">
+                        <span class="duration">122:55</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1832.html">毛骨悚然的帕格尼尼</a></h3>
+                        <p>一位落魄小提琴手得到传说中帕格尼尼用过的琴弦,从此琴技突飞猛进,但身边的人却接连惨死。</p>
+                        <div class="movie-meta">
+                            <span>3.6万热度</span>
+                            <span>2013</span>
+                            <span>德国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="安娜的激情" data-type="电影" data-region="法国/德国" data-year="2005" data-genre="剧情,爱情,音乐" data-tags="古典乐 艺术家 不伦之恋">
+                    <a class="movie-cover" href="../movie/0501.html">
+                        <img src="../51.jpg" alt="安娜的激情" loading="lazy">
+                        <span class="duration">114:52</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0501.html">安娜的激情</a></h3>
+                        <p>年仅20岁的钢琴天才安娜爱上了她50岁的已婚导师,这段惊世骇俗的恋情中,究竟谁是猎物,谁又是猎手?</p>
+                        <div class="movie-meta">
+                            <span>4.4万热度</span>
+                            <span>2005</span>
+                            <span>法国/德国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="湘音湘韵" data-type="电影" data-region="中国大陆" data-year="2023" data-genre="剧情,音乐" data-tags="方言 花鼓戏 传承">
+                    <a class="movie-cover" href="../movie/1453.html">
+                        <img src="../103.jpg" alt="湘音湘韵" loading="lazy">
+                        <span class="duration">83:17</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1453.html">湘音湘韵</a></h3>
+                        <p>从小被送去学美声的湘西女孩,因奶奶病重回乡,被迫继承一个快倒闭的花鼓戏剧团。</p>
+                        <div class="movie-meta">
+                            <span>1.3万热度</span>
+                            <span>2023</span>
+                            <span>中国大陆</span>
+                        </div>
+                    </div>
+                </article>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <section>
+                <a class="footer-brand" href="../index.html">
+                    <span class="brand-mark">▶</span>
+                    <span>日韩热门影片</span>
+                </a>
+                <p>精选站内热门影片、剧集与片单内容，按题材、地区、年份与热度组织，方便快速发现想看的作品。</p>
+            </section>
+            <section>
+                <h2>快速导航</h2>
+                <a href="../categories.html">分类浏览</a>
+                <a href="../ranking.html">热度排行</a>
+                <a href="../movies/page-1.html">全部片库</a>
+                <a href="../search.html">搜索筛选</a>
+            </section>
+            <section>
+                <h2>内容入口</h2>
+                <a href="../category/main-001.html">日韩爱情</a>
+                <a href="../category/main-002.html">日韩悬疑</a>
+                <a href="../category/main-003.html">日韩古装</a>
+                <a href="../category/main-004.html">日韩动画</a>
+            </section>
+            <section>
+                <h2>站点服务</h2>
+                <a href="../about.html">关于本站</a>
+                <a href="../support.html">观看指南</a>
+                <a href="../copyright.html">版权声明</a>
+            </section>
+        </div>
+        <div class="container footer-bottom">
+            <p>© 2026 日韩热门影片. 持续整理站内热门片单与播放入口。</p>
+        </div>
+    </footer>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

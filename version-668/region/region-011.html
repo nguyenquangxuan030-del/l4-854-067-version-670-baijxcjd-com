@@ -1,0 +1,584 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>德国影片-日韩热门影片-热门影片片库-热门影片在线点播</title>
+    <meta name="description" content="日韩热门影片德国影片栏目，收录 22 部影片。">
+    <meta name="keywords" content="德国影片,日韩热门影片,热门影片片库,日韩影片,影片点播,热门电影,精选日韩影片,影片合集">
+    <meta name="applicable-device" content="pc,mobile">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="../assets/site.css">
+
+    <script src="../assets/site.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-bar">
+            <a class="brand" href="../index.html" aria-label="日韩热门影片首页">
+                <span class="brand-mark">▶</span>
+                <span>日韩热门影片</span>
+            </a>
+            <nav class="desktop-nav" aria-label="主导航">
+                <a href="../index.html">首页</a>
+                <a href="../categories.html">分类</a>
+                <a href="../ranking.html">排行榜</a>
+                <a href="../movies/page-1.html">片库</a>
+                <a href="../search.html">搜索</a>
+            </nav>
+            <form class="header-search search-form" action="../search.html" method="get">
+                <input type="search" name="q" placeholder="搜索影片、题材、地区" autocomplete="off">
+                <button type="submit">搜索</button>
+            </form>
+            <button class="mobile-toggle" type="button" aria-label="展开导航" aria-expanded="false">☰</button>
+        </div>
+        <div class="mobile-menu" hidden>
+            <form class="mobile-search search-form" action="../search.html" method="get">
+                <input type="search" name="q" placeholder="搜索影片、题材、地区" autocomplete="off">
+                <button type="submit">搜索</button>
+            </form>
+            <a href="../index.html">首页</a>
+            <a href="../categories.html">分类</a>
+            <a href="../ranking.html">排行榜</a>
+            <a href="../movies/page-1.html">片库</a>
+            <a href="../search.html">搜索</a>
+        </div>
+    </header>
+    <main>
+        <section class="page-hero compact-hero">
+            <div class="container">
+                <span class="section-kicker">Movie List</span>
+                <h1>德国影片</h1>
+                <p>当前栏目共 22 部影片，支持当前页关键词和条件筛选。</p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+            <section class="filter-panel" aria-label="筛选影片">
+                <input id="pageFilterKeyword" type="search" placeholder="在当前页面筛选片名、简介、题材">
+                <select id="pageFilterType">
+                    <option value="">全部类型</option>
+                    <option value="电影">电影</option>
+                    <option value="剧集">剧集</option>
+                    <option value="电视剧">电视剧</option>
+                    <option value="动画电影">动画电影</option>
+                    <option value="动画剧集">动画剧集</option>
+                    <option value="综艺">综艺</option>
+                    <option value="动画">动画</option>
+                    <option value="网络剧">网络剧</option>
+                    <option value="网络电影">网络电影</option>
+                    <option value="纪录片">纪录片</option>
+                    <option value="动漫">动漫</option>
+                    <option value="TV Series">TV Series</option>
+                    <option value="TV 剧集">TV 剧集</option>
+                    <option value="动画短片">动画短片</option>
+                    <option value="电影/动画">电影/动画</option>
+                    <option value="电影/纪录片">电影/纪录片</option>
+                    <option value="纪录片剧集">纪录片剧集</option>
+                    <option value="TV">TV</option>
+                    <option value="TV 动画">TV 动画</option>
+                    <option value="TV动画">TV动画</option>
+                    <option value="剧情/农村">剧情/农村</option>
+                    <option value="剧情/喜剧">剧情/喜剧</option>
+                    <option value="剧集,动画">剧集,动画</option>
+                    <option value="剧集/动画">剧集/动画</option>
+                    <option value="剧集/短剧">剧集/短剧</option>
+                    <option value="剧集/综艺">剧集/综艺</option>
+                    <option value="动画 动画/校园">动画 动画/校园</option>
+                    <option value="电影 (动画)">电影 (动画)</option>
+                    <option value="电影 纪录片">电影 纪录片</option>
+                    <option value="电影,动画">电影,动画</option>
+                </select>
+                <select id="pageFilterRegion">
+                    <option value="">全部地区</option>
+                    <option value="中国大陆">中国大陆</option>
+                    <option value="美国">美国</option>
+                    <option value="日本">日本</option>
+                    <option value="中国香港">中国香港</option>
+                    <option value="韩国">韩国</option>
+                    <option value="英国">英国</option>
+                    <option value="中国台湾">中国台湾</option>
+                    <option value="法国">法国</option>
+                    <option value="中国">中国</option>
+                    <option value="西班牙">西班牙</option>
+                    <option value="德国">德国</option>
+                    <option value="意大利">意大利</option>
+                    <option value="印度">印度</option>
+                    <option value="香港">香港</option>
+                    <option value="俄罗斯">俄罗斯</option>
+                    <option value="泰国">泰国</option>
+                    <option value="中国内地">中国内地</option>
+                    <option value="澳大利亚">澳大利亚</option>
+                    <option value="加拿大">加拿大</option>
+                    <option value="美国/英国">美国/英国</option>
+                    <option value="法国/比利时">法国/比利时</option>
+                    <option value="台湾">台湾</option>
+                    <option value="英国/美国">英国/美国</option>
+                    <option value="中国香港/中国大陆">中国香港/中国大陆</option>
+                    <option value="挪威">挪威</option>
+                    <option value="法国/德国">法国/德国</option>
+                    <option value="美国/德国">美国/德国</option>
+                    <option value="瑞典">瑞典</option>
+                    <option value="美国/中国大陆">美国/中国大陆</option>
+                    <option value="美国/加拿大">美国/加拿大</option>
+                    <option value="美国/墨西哥">美国/墨西哥</option>
+                    <option value="英国/法国">英国/法国</option>
+                    <option value="中国大陆,香港">中国大陆,香港</option>
+                    <option value="中国大陆/中国香港">中国大陆/中国香港</option>
+                    <option value="中国大陆/香港">中国大陆/香港</option>
+                    <option value="中国香港/台湾">中国香港/台湾</option>
+                    <option value="丹麦">丹麦</option>
+                    <option value="乌克兰">乌克兰</option>
+                    <option value="伊朗">伊朗</option>
+                    <option value="巴西">巴西</option>
+                </select>
+                <select id="pageFilterYear">
+                    <option value="">全部年份</option>
+                    <option value="2030">2030</option>
+                    <option value="2029">2029</option>
+                    <option value="2028">2028</option>
+                    <option value="2027">2027</option>
+                    <option value="2026">2026</option>
+                    <option value="2025">2025</option>
+                    <option value="2024">2024</option>
+                    <option value="2023">2023</option>
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                    <option value="2020">2020</option>
+                    <option value="2019">2019</option>
+                    <option value="2018">2018</option>
+                    <option value="2017">2017</option>
+                    <option value="2016">2016</option>
+                    <option value="2015">2015</option>
+                    <option value="2014">2014</option>
+                    <option value="2013">2013</option>
+                    <option value="2012">2012</option>
+                    <option value="2011">2011</option>
+                    <option value="2010">2010</option>
+                    <option value="2009">2009</option>
+                    <option value="2008">2008</option>
+                    <option value="2007">2007</option>
+                    <option value="2006">2006</option>
+                    <option value="2005">2005</option>
+                    <option value="2004">2004</option>
+                    <option value="2003">2003</option>
+                    <option value="2002">2002</option>
+                    <option value="2001">2001</option>
+                    <option value="2000">2000</option>
+                    <option value="1999">1999</option>
+                    <option value="1998">1998</option>
+                    <option value="1997">1997</option>
+                    <option value="1996">1996</option>
+                    <option value="1995">1995</option>
+                    <option value="1994">1994</option>
+                    <option value="1993">1993</option>
+                    <option value="1992">1992</option>
+                    <option value="1991">1991</option>
+                </select>
+                <a class="filter-link" href="../search.html">高级搜索</a>
+            </section>
+                <div class="movie-grid filterable-grid">
+                <article class="movie-card" data-title="来自昏暗国度的回声" data-type="电影" data-region="德国" data-year="2027" data-genre="悬疑/恐怖/历史" data-tags="二战 煤矿 邪教">
+                    <a class="movie-cover" href="../movie/1546.html">
+                        <img src="../46.jpg" alt="来自昏暗国度的回声" loading="lazy">
+                        <span class="duration">71:36</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1546.html">来自昏暗国度的回声</a></h3>
+                        <p>一位声音考古学家在图林根森林的废弃矿洞中,挖出了一台还在播放纳粹广播的真空管收音机,但里面的语言从未在人类历史上出现过。</p>
+                        <div class="movie-meta">
+                            <span>19.8万热度</span>
+                            <span>2027</span>
+                            <span>德国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="头骨欲裂" data-type="电影" data-region="德国" data-year="2025" data-genre="动作/犯罪" data-tags="硬核动作 黑帮复仇 肉搏">
+                    <a class="movie-cover" href="../movie/1767.html">
+                        <img src="../117.jpg" alt="头骨欲裂" loading="lazy">
+                        <span class="duration">120:58</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1767.html">头骨欲裂</a></h3>
+                        <p>为了救出被绑架的女儿,一名患有脑癌的父亲必须在药效失效前杀穿整个黑帮大楼。</p>
+                        <div class="movie-meta">
+                            <span>19.5万热度</span>
+                            <span>2025</span>
+                            <span>德国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="爱与罪" data-type="剧集" data-region="德国" data-year="2025" data-genre="悬疑/爱情" data-tags="双面人生 连环杀人 共犯恋人">
+                    <a class="movie-cover" href="../movie/1451.html">
+                        <img src="../101.jpg" alt="爱与罪" loading="lazy">
+                        <span class="duration">111:22</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1451.html">爱与罪</a></h3>
+                        <p>女刑警爱上沉默的图书管理员,却发现他就是自己追查了七年的“雨夜诗人”连环杀手。</p>
+                        <div class="movie-meta">
+                            <span>19.0万热度</span>
+                            <span>2025</span>
+                            <span>德国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="摆动" data-type="电影" data-region="德国" data-year="2023" data-genre="剧情、历史" data-tags="冷战 东德 舞蹈">
+                    <a class="movie-cover" href="../movie/1414.html">
+                        <img src="../64.jpg" alt="摆动" loading="lazy">
+                        <span class="duration">72:04</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1414.html">摆动</a></h3>
+                        <p>1984年东柏林,一名芭蕾舞者用身体的每一次摆动,对抗整个国家的沉默。</p>
+                        <div class="movie-meta">
+                            <span>19.3万热度</span>
+                            <span>2023</span>
+                            <span>德国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="隆美尔宝藏" data-type="电影" data-region="德国" data-year="2012" data-genre="动作冒险" data-tags="寻宝 二战 沙漠">
+                    <a class="movie-cover" href="../movie/1591.html">
+                        <img src="../91.jpg" alt="隆美尔宝藏" loading="lazy">
+                        <span class="duration">125:28</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1591.html">隆美尔宝藏</a></h3>
+                        <p>传闻“沙漠之狐”隆美尔在北非藏匿了一批掠夺来的黄金,三组人马在撒哈拉展开夺宝竞赛。</p>
+                        <div class="movie-meta">
+                            <span>19.6万热度</span>
+                            <span>2012</span>
+                            <span>德国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="铁十字勋章" data-type="电影" data-region="德国" data-year="2024" data-genre="战争/历史" data-tags="二战 德军视角 反战">
+                    <a class="movie-cover" href="../movie/0395.html">
+                        <img src="../95.jpg" alt="铁十字勋章" loading="lazy">
+                        <span class="duration">99:36</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0395.html">铁十字勋章</a></h3>
+                        <p>一个厌恶纳粹的德国士兵被强制授予铁十字勋章,因为他做了一件英雄事迹——但那件事实际上从未发生过。</p>
+                        <div class="movie-meta">
+                            <span>16.9万热度</span>
+                            <span>2024</span>
+                            <span>德国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="亨利的柏林假期" data-type="电影" data-region="德国" data-year="2025" data-genre="剧情,爱情,历史" data-tags="冷战 间谍 错位爱情">
+                    <a class="movie-cover" href="../movie/1850.html">
+                        <img src="../50.jpg" alt="亨利的柏林假期" loading="lazy">
+                        <span class="duration">101:37</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1850.html">亨利的柏林假期</a></h3>
+                        <p>1987年,一名美国大学生去柏林旅游,爱上了一个东德女孩,而她的父亲是史塔西军官。</p>
+                        <div class="movie-meta">
+                            <span>13.2万热度</span>
+                            <span>2025</span>
+                            <span>德国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="影与雾" data-type="电影" data-region="德国" data-year="2017" data-genre="悬疑,惊悚" data-tags="心理惊悚 黑色电影 身份迷失">
+                    <a class="movie-cover" href="../movie/0561.html">
+                        <img src="../111.jpg" alt="影与雾" loading="lazy">
+                        <span class="duration">97:40</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0561.html">影与雾</a></h3>
+                        <p>柏林墙倒塌前夕,一位失忆的档案管理员发现自己的身份竟是一团由谎言编织的“雾”。</p>
+                        <div class="movie-meta">
+                            <span>14.6万热度</span>
+                            <span>2017</span>
+                            <span>德国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="鹰巢" data-type="剧集" data-region="德国" data-year="2025" data-genre="战争/历史/惊悚" data-tags="纳粹 反抗军 刺杀希特勒">
+                    <a class="movie-cover" href="../movie/1330.html">
+                        <img src="../130.jpg" alt="鹰巢" loading="lazy">
+                        <span class="duration">104:17</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1330.html">鹰巢</a></h3>
+                        <p>1944年,一群德国军官在鹰巢策划刺杀希特勒,却发现元首早已被替身取代。</p>
+                        <div class="movie-meta">
+                            <span>12.7万热度</span>
+                            <span>2025</span>
+                            <span>德国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="从海底出击第四季" data-type="电视剧" data-region="德国" data-year="2025" data-genre="战争,历史,惊悚" data-tags="潜艇 二战 人性">
+                    <a class="movie-cover" href="../movie/1262.html">
+                        <img src="../62.jpg" alt="从海底出击第四季" loading="lazy">
+                        <span class="duration">121:40</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1262.html">从海底出击第四季</a></h3>
+                        <p>战争末期,一艘德国U型潜艇接到了不可能的任务:穿越英军封锁线,将一个神秘的“货物”送往南美洲。</p>
+                        <div class="movie-meta">
+                            <span>12.6万热度</span>
+                            <span>2025</span>
+                            <span>德国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="科技的威胁" data-type="剧集" data-region="德国" data-year="2024" data-genre="科幻/悬疑" data-tags="AI 监控社会 预言">
+                    <a class="movie-cover" href="../movie/0083.html">
+                        <img src="../83.jpg" alt="科技的威胁" loading="lazy">
+                        <span class="duration">115:54</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0083.html">科技的威胁</a></h3>
+                        <p>一款能预测未来犯罪的AI上线,但第一起预测的“罪犯”是它自己的创造者。</p>
+                        <div class="movie-meta">
+                            <span>12.6万热度</span>
+                            <span>2024</span>
+                            <span>德国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="德国之爱" data-type="电影" data-region="德国" data-year="2026" data-genre="剧情,战争,爱情" data-tags="柏林墙 东德西德 禁忌之恋">
+                    <a class="movie-cover" href="../movie/1233.html">
+                        <img src="../33.jpg" alt="德国之爱" loading="lazy">
+                        <span class="duration">99:33</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1233.html">德国之爱</a></h3>
+                        <p>柏林墙倒塌前夜,东德女翻译官爱上了她负责审讯的西德商人,而她的上级要求她用身体换取情报。</p>
+                        <div class="movie-meta">
+                            <span>11.3万热度</span>
+                            <span>2026</span>
+                            <span>德国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="第三次浪潮" data-type="电影" data-region="德国" data-year="2024" data-genre="剧情/历史" data-tags="教育实验 独裁 改编">
+                    <a class="movie-cover" href="../movie/0169.html">
+                        <img src="../19.jpg" alt="第三次浪潮" loading="lazy">
+                        <span class="duration">75:41</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0169.html">第三次浪潮</a></h3>
+                        <p>高中老师为解释纳粹主义而发起的课堂实验,在五天内失控演变为一场真实的狂热运动。</p>
+                        <div class="movie-meta">
+                            <span>11.5万热度</span>
+                            <span>2024</span>
+                            <span>德国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="阳台前的夏天" data-type="电影" data-region="德国" data-year="2022" data-genre="剧情/家庭" data-tags="邻里关系 治愈 夏日">
+                    <a class="movie-cover" href="../movie/1778.html">
+                        <img src="../128.jpg" alt="阳台前的夏天" loading="lazy">
+                        <span class="duration">101:11</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1778.html">阳台前的夏天</a></h3>
+                        <p>四个互不相识的邻居共享一栋老公寓的阳台,却在夏夜里逐渐成了彼此最隐秘的树洞。</p>
+                        <div class="movie-meta">
+                            <span>10.5万热度</span>
+                            <span>2022</span>
+                            <span>德国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="白雪公主必须死" data-type="电影" data-region="德国" data-year="2024" data-genre="悬疑,剧情,犯罪" data-tags="童话改编 暗黑 小镇疑云">
+                    <a class="movie-cover" href="../movie/0276.html">
+                        <img src="../126.jpg" alt="白雪公主必须死" loading="lazy">
+                        <span class="duration">90:07</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0276.html">白雪公主必须死</a></h3>
+                        <p>东德小镇连续七年有少女失踪,第七个失踪的女孩名叫白雪。</p>
+                        <div class="movie-meta">
+                            <span>9.3万热度</span>
+                            <span>2024</span>
+                            <span>德国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="有罪之身" data-type="剧集" data-region="德国" data-year="2025" data-genre="犯罪,剧情,法律" data-tags="冤案 律师 正义">
+                    <a class="movie-cover" href="../movie/1825.html">
+                        <img src="../25.jpg" alt="有罪之身" loading="lazy">
+                        <span class="duration">95:11</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1825.html">有罪之身</a></h3>
+                        <p>一位专门为死刑犯做无罪辩护的律师,发现自己养子的亲生父亲正是他十年前送进监狱的连环杀手。</p>
+                        <div class="movie-meta">
+                            <span>7.9万热度</span>
+                            <span>2025</span>
+                            <span>德国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="默哀时刻" data-type="电影" data-region="德国" data-year="2022" data-genre="剧情" data-tags="创伤 沉默 校园">
+                    <a class="movie-cover" href="../movie/0358.html">
+                        <img src="../58.jpg" alt="默哀时刻" loading="lazy">
+                        <span class="duration">124:03</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0358.html">默哀时刻</a></h3>
+                        <p>一堂默哀课上,女教师发现全班唯独那个男孩睁着眼,而他的父亲正是当年车祸的肇事者。</p>
+                        <div class="movie-meta">
+                            <span>7.8万热度</span>
+                            <span>2022</span>
+                            <span>德国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="黑暗之敌" data-type="电影" data-region="德国" data-year="2025" data-genre="战争悬疑" data-tags="二战 地堡 狼人">
+                    <a class="movie-cover" href="../movie/0486.html">
+                        <img src="../36.jpg" alt="黑暗之敌" loading="lazy">
+                        <span class="duration">111:41</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/0486.html">黑暗之敌</a></h3>
+                        <p>二战最后一天,一群德军士兵躲进地堡,却发现黑暗中藏着比盟军更可怕的怪物。</p>
+                        <div class="movie-meta">
+                            <span>2.6万热度</span>
+                            <span>2025</span>
+                            <span>德国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="瓦尔兴湖家庭电影" data-type="电影" data-region="德国" data-year="2023" data-genre="剧情,惊悚,悬疑" data-tags="家庭录影带 湖滨凶案 不可靠叙事">
+                    <a class="movie-cover" href="../movie/1373.html">
+                        <img src="../23.jpg" alt="瓦尔兴湖家庭电影" loading="lazy">
+                        <span class="duration">93:14</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1373.html">瓦尔兴湖家庭电影</a></h3>
+                        <p>一个家庭翻出20年前的度假录像,发现背景里有个陌生女孩正在走向深水区,再也没有出来。</p>
+                        <div class="movie-meta">
+                            <span>2.4万热度</span>
+                            <span>2023</span>
+                            <span>德国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="斯特龙贝格:电影版" data-type="电影" data-region="德国" data-year="2024" data-genre="科幻,剧情,灾难" data-tags="欧洲核电站 官僚主义 末日倒计时">
+                    <a class="movie-cover" href="../movie/1336.html">
+                        <img src="../136.jpg" alt="斯特龙贝格:电影版" loading="lazy">
+                        <span class="duration">76:27</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1336.html">斯特龙贝格:电影版</a></h3>
+                        <p>斯特龙贝格核电站发生不可逆故障,工程师发现所有警报都被系统自动屏蔽了。</p>
+                        <div class="movie-meta">
+                            <span>1.3万热度</span>
+                            <span>2024</span>
+                            <span>德国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="毛骨悚然的帕格尼尼" data-type="电影" data-region="德国" data-year="2013" data-genre="恐怖,音乐" data-tags="小提琴 魔鬼交易 诅咒">
+                    <a class="movie-cover" href="../movie/1832.html">
+                        <img src="../32.jpg" alt="毛骨悚然的帕格尼尼" loading="lazy">
+                        <span class="duration">122:55</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1832.html">毛骨悚然的帕格尼尼</a></h3>
+                        <p>一位落魄小提琴手得到传说中帕格尼尼用过的琴弦,从此琴技突飞猛进,但身边的人却接连惨死。</p>
+                        <div class="movie-meta">
+                            <span>3.6万热度</span>
+                            <span>2013</span>
+                            <span>德国</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="movie-card" data-title="卡策马赫尔" data-type="电影" data-region="德国" data-year="1969" data-genre="剧情/喜剧" data-tags="移民 排外心理 社会冲突">
+                    <a class="movie-cover" href="../movie/1367.html">
+                        <img src="../17.jpg" alt="卡策马赫尔" loading="lazy">
+                        <span class="duration">110:42</span>
+                        <span class="play-badge">▶</span>
+                    </a>
+                    <div class="movie-info">
+                        <h3><a href="../movie/1367.html">卡策马赫尔</a></h3>
+                        <p>一个希腊移民的到来,像一颗石子投入死水,搅动了整个小镇的伪善与欲望。</p>
+                        <div class="movie-meta">
+                            <span>3.8万热度</span>
+                            <span>1969</span>
+                            <span>德国</span>
+                        </div>
+                    </div>
+                </article>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <section>
+                <a class="footer-brand" href="../index.html">
+                    <span class="brand-mark">▶</span>
+                    <span>日韩热门影片</span>
+                </a>
+                <p>精选站内热门影片、剧集与片单内容，按题材、地区、年份与热度组织，方便快速发现想看的作品。</p>
+            </section>
+            <section>
+                <h2>快速导航</h2>
+                <a href="../categories.html">分类浏览</a>
+                <a href="../ranking.html">热度排行</a>
+                <a href="../movies/page-1.html">全部片库</a>
+                <a href="../search.html">搜索筛选</a>
+            </section>
+            <section>
+                <h2>内容入口</h2>
+                <a href="../category/main-001.html">日韩爱情</a>
+                <a href="../category/main-002.html">日韩悬疑</a>
+                <a href="../category/main-003.html">日韩古装</a>
+                <a href="../category/main-004.html">日韩动画</a>
+            </section>
+            <section>
+                <h2>站点服务</h2>
+                <a href="../about.html">关于本站</a>
+                <a href="../support.html">观看指南</a>
+                <a href="../copyright.html">版权声明</a>
+            </section>
+        </div>
+        <div class="container footer-bottom">
+            <p>© 2026 日韩热门影片. 持续整理站内热门片单与播放入口。</p>
+        </div>
+    </footer>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
